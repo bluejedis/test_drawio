@@ -23,7 +23,7 @@
           <mxGeometry x="-1980" y="1540" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tCX9zsfhDaWCQf5bKKX1-8" value="树" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E6FFCC;strokeColor=none;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="-1040" y="1910" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1140" y="1915" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tCX9zsfhDaWCQf5bKKX1-9" value="图" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFFFF;strokeColor=none;opacity=50;" parent="1" vertex="1">
           <mxGeometry x="-480" y="1010" width="120" height="60" as="geometry" />
@@ -193,11 +193,129 @@
         <mxCell id="Gu-An6xsGjLYmGweyjtp-58" value="拓扑排序" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="-590" y="1230" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Gu-An6xsGjLYmGweyjtp-59" value="二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="1850" width="60" height="30" as="geometry" />
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-59" target="Gu-An6xsGjLYmGweyjtp-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-59" target="Gu-An6xsGjLYmGweyjtp-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-59" target="Gu-An6xsGjLYmGweyjtp-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-59" value="&lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;二叉&lt;/font&gt;&lt;font style=&quot;color: rgb(51, 255, 51);&quot;&gt;树&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="1850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Gu-An6xsGjLYmGweyjtp-60" value="树&amp;森林" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="2035" width="70" height="30" as="geometry" />
+          <mxGeometry x="-940" y="1985" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-61" value="树_concept" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="2030" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-62" value="definition" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1992.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-63" value="术语" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="2032.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-64" value="性质" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="2077.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-66" value="concept" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="1845" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-67" target="Gu-An6xsGjLYmGweyjtp-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-67" target="Gu-An6xsGjLYmGweyjtp-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1220" y="1720" />
+              <mxPoint x="-1280" y="1720" />
+              <mxPoint x="-1280" y="1535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=-0.028;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-67" target="Gu-An6xsGjLYmGweyjtp-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1220" y="1720" />
+              <mxPoint x="-1280" y="1720" />
+              <mxPoint x="-1280" y="1625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.01;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-67" target="Gu-An6xsGjLYmGweyjtp-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1220" y="1720" />
+              <mxPoint x="-1280" y="1720" />
+              <mxPoint x="-1280" y="1575" />
+              <mxPoint x="-1259" y="1575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-67" value="&lt;font style=&quot;color: rgb(102, 255, 255);&quot;&gt;遍历&amp;nbsp;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="1760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-68" target="Gu-An6xsGjLYmGweyjtp-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-68" value="&lt;font style=&quot;color: rgb(255, 204, 0);&quot;&gt;线索&lt;/font&gt;二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="1760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-69" value="定义 &amp;amp; 特性" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="1805" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-70" value="存储结构" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="1860" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-71" value="遍历ways&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-72" value="递归 ←→非递归" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1565" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-73" value="层次&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;遍历&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-74" value="由遍历序列构造 二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="1650" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-76" value="concept" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1610" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-77" value="中序线索二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-78" value="&lt;font style=&quot;color: rgb(102, 255, 255);&quot;&gt;遍历&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-79" value="&lt;font style=&quot;color: rgb(179, 255, 102);&quot;&gt;构造&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1660" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-83" value="先序&amp;amp;后序线索二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="1770" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-89" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="1685" width="20" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gu-An6xsGjLYmGweyjtp-68" target="Gu-An6xsGjLYmGweyjtp-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-93" value="树&#39; 存储结构" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="1910" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-94" value="树← → 森林← → 二叉树" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="1955" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-95" value="apply" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="2030" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-96" value="哈夫曼树&amp;amp;哈夫曼编码" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="2010" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gu-An6xsGjLYmGweyjtp-97" value="并查集" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="2060" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
