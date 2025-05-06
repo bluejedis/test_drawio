@@ -66,7 +66,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SnLKxvgXRGLQPSbG1Yu_-0" value="&lt;font style=&quot;color: rgb(102, 178, 255);&quot;&gt;指令&lt;/font&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1301" y="2608" width="66" height="26" as="geometry" />
+          <mxGeometry x="1295" y="2764" width="66" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SnLKxvgXRGLQPSbG1Yu_-1" value="&lt;font style=&quot;color: rgb(255, 204, 0);&quot;&gt;Bus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2607" y="2689.97" width="39" height="26" as="geometry" />
@@ -205,6 +205,15 @@
         </mxCell>
         <mxCell id="SnLKxvgXRGLQPSbG1Yu_-66" value="&lt;span style=&quot;color: Gold;&quot;&gt;高级&lt;/span&gt; &lt;span style=&quot;color: silver;&quot;&gt;&lt;span style=&quot;color: LightSkyBlue;&quot;&gt;流水&lt;/span&gt;线技术&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="784" y="1969" width="115" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="SnLKxvgXRGLQPSbG1Yu_-67" value="&lt;span style=&quot;color: silver;&quot;&gt;程序&#39; 机器级&lt;span style=&quot;color: LightSkyBlue;&quot;&gt;代码&lt;/span&gt;表示&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1415" y="2867" width="142" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="SnLKxvgXRGLQPSbG1Yu_-68" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;concept&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1029" y="2867" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="SnLKxvgXRGLQPSbG1Yu_-69" value="&lt;span style=&quot;color: green;&quot;&gt;寻址&lt;/span&gt;&lt;span style=&quot;color: silver;&quot;&gt;方式&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1172" y="2867" width="76" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
