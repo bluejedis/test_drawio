@@ -462,6 +462,18 @@
         <mxCell id="G0x68syR839aoxgzWRLQ-10" value="&lt;span style=&quot;color: silver;&quot;&gt;I/O&lt;span style=&quot;color: LightSkyBlue;&quot;&gt;端口&lt;/span&gt;&amp;amp; &lt;span style=&quot;color: deepskyblue;&quot;&gt;编址&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="4033" y="1703" width="103" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="G0x68syR839aoxgzWRLQ-11" value="&lt;span style=&quot;color: silver;&quot;&gt; 概述&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4682" y="2293" width="61" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="G0x68syR839aoxgzWRLQ-12" value="&lt;span style=&quot;color: silver;&quot;&gt;* 发展历程&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4575" y="2222" width="84" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="G0x68syR839aoxgzWRLQ-13" value="&lt;span style=&quot;color: orange;&quot;&gt;性能&lt;/span&gt;&lt;span style=&quot;color: green;&quot;&gt;指标&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4729" y="2375" width="76" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="G0x68syR839aoxgzWRLQ-14" value="&lt;span style=&quot;color: silver;&quot;&gt;0 &lt;span style=&quot;color: LightSkyBlue;&quot;&gt;系统 &lt;span style=&quot;color: Gold;&quot;&gt;层次&lt;/span&gt;&lt;span style=&quot;color: green;&quot;&gt;结构&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="4729" y="2220" width="113" height="36" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
