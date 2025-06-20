@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="3">
   <diagram name="第 1 页" id="_FsjZId1IItgky6wcJSt">
-    <mxGraphModel dx="1532" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="919" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,9 +29,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-27" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
-          <mxGeometry x="135" y="228" width="50" height="44" as="geometry">
-            <mxRectangle x="135" y="228" width="274" height="134" as="alternateBounds" />
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-27" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="135" y="228" width="274" height="134" as="geometry">
+            <mxRectangle x="135" y="228" width="50" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-7" value="$$(\frac{\partial F}{\partial x},\frac{\partial F}{\partial y},\frac{\partial F}{\partial z})$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
@@ -40,8 +40,20 @@
         <mxCell id="UpazrJVpiqtKpTAvuoWl-24" value="标量:" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
           <mxGeometry x="105" y="79" width="58" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-26" value="vector" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-26" value="vector(雅可比行列式)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
           <mxGeometry x="17" y="3" width="55" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="3-S6T4E1Im44KUQnPD40-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="UpazrJVpiqtKpTAvuoWl-27" target="UpazrJVpiqtKpTAvuoWl-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="47" as="sourcePoint" />
+            <mxPoint x="105" y="29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3-S6T4E1Im44KUQnPD40-2" value="&lt;font style=&quot;color: rgb(153, 153, 153); font-size: 11px;&quot;&gt;when use&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 153, 153); font-size: 11px;&quot;&gt;&amp;nbsp;Gauss&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
+          <mxGeometry x="50" y="24" width="65" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="3-S6T4E1Im44KUQnPD40-3" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;⇔&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;法向量\(\mathbf n\)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
+          <mxGeometry x="9" y="65" width="119" height="41" as="geometry" />
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-5" value="梯度\(\nabla F\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="100" height="30" as="geometry" />
@@ -111,6 +123,36 @@
         <mxCell id="UpazrJVpiqtKpTAvuoWl-37" value="compare with Default 正方向" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="798" y="396" width="83" height="36" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UpTl_8wOACQzo3ZLzCu0" name="notice">
+    <mxGraphModel dx="919" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gTEx3YtkmsszpdgZSlS9-3" value="NOTICE:" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="70" width="77" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="gTEx3YtkmsszpdgZSlS9-4" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="71" y="117" width="701" height="234" as="geometry">
+            <mxRectangle x="50" y="113" width="50" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gTEx3YtkmsszpdgZSlS9-1" value="&lt;div&gt;Gauss不是用于 Vector Field中对坐标的积分吗, 其中的梯度表示雅可比行列式, 此时 use标量 法向量的 计算方法仍然成立吗?&lt;br&gt;&lt;br&gt;↑&lt;br&gt;&lt;br&gt;Gauss要求曲面&#39;外法向量&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;计算与标量场梯度法 完全兼容&lt;/li&gt;&lt;li&gt;仅用于确定曲面方向&lt;/li&gt;&lt;ul&gt;&lt;li&gt;散度 ∇⋅F 的计算独立于法向量&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="gTEx3YtkmsszpdgZSlS9-4">
+          <mxGeometry x="29" y="59.08" width="559" height="174.92" as="geometry" />
+        </mxCell>
+        <mxCell id="gTEx3YtkmsszpdgZSlS9-2" value="&lt;br&gt;&lt;div&gt;补面Gauss时&lt;/div&gt;&lt;div style=&quot;&quot;&gt;法向量⇔标量场计算&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gTEx3YtkmsszpdgZSlS9-4">
+          <mxGeometry width="126" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mjRPwjqkQ3hsiMw0DQDC" name="梯度、法向量、散度、旋度的计算表达式与区别">
+    <mxGraphModel dx="919" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
