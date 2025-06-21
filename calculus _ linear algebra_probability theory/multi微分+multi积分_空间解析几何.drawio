@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="3">
   <diagram name="第 1 页" id="_FsjZId1IItgky6wcJSt">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="766" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="UpazrJVpiqtKpTAvuoWl-3" value="空间解析几何" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="790" y="694" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-6" value="法向量n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-6" value="法向量\(\mathbf n\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="649" y="709" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-8" value="&lt;font style=&quot;color: rgb(255, 179, 102);&quot;&gt;Surface &lt;/font&gt;integral" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -34,7 +34,7 @@
             <mxRectangle x="135" y="228" width="50" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-7" value="$$(\frac{\partial F}{\partial x},\frac{\partial F}{\partial y},\frac{\partial F}{\partial z})$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-7" value="$$(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
           <mxGeometry x="154" y="71" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-24" value="标量:" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
@@ -55,7 +55,7 @@
         <mxCell id="3-S6T4E1Im44KUQnPD40-3" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;⇔&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;法向量\(\mathbf n\)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-27">
           <mxGeometry x="9" y="65" width="119" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-5" value="梯度\(\nabla F\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-5" value="梯度\(\nabla f\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-28" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
@@ -102,7 +102,7 @@
         <mxCell id="UpazrJVpiqtKpTAvuoWl-16" value="$$f(x,y,z)=0$$" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-30">
           <mxGeometry x="35" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UpazrJVpiqtKpTAvuoWl-23" value="\(\nabla F\)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-30">
+        <mxCell id="UpazrJVpiqtKpTAvuoWl-23" value="\(\nabla F=(\frac{\partial F}{\partial x},\frac{\partial F}{\partial y},\frac{\partial F}{\partial z})\)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-30">
           <mxGeometry y="40" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-31" value="隐式" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="UpazrJVpiqtKpTAvuoWl-28">
@@ -127,7 +127,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UpTl_8wOACQzo3ZLzCu0" name="notice">
-    <mxGraphModel dx="919" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,10 +149,118 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mjRPwjqkQ3hsiMw0DQDC" name="梯度、法向量、散度、旋度的计算表达式与区别">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="9908" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-1" value="法向量\(\mathbf n\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469.5" y="213.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-2" value="梯度\(\nabla f\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155.5" y="213.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-3" value="散度\(\nabla \cdot \mathbf F \)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="793.5" y="214" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-4" value="$$\nabla f$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="292" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-5" value="$$\nabla F$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475.5" y="299.5" width="88" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="697" y="544" as="sourcePoint" />
+            <mxPoint x="697" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-8" value="$$(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="363" width="441" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-9" value="$$(\frac{\partial F}{\partial x},\frac{\partial F}{\partial y},\frac{\partial F}{\partial z})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="293" y="370.5" width="453" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1022" y="542" as="sourcePoint" />
+            <mxPoint x="1022" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-13" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+          <mxGeometry x="598" y="297" width="50" height="44" as="geometry">
+            <mxRectangle x="598" y="297" width="491" height="228" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-6" value="\(\nabla \cdot F \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="CTJ0CWzM8uyhNdI-I7Cb-13">
+          <mxGeometry x="207" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-10" value="$$\frac{\partial F_x}{\partial x}+\frac{\partial F_y}{\partial y}+\frac{\partial F_z}{\partial z}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="CTJ0CWzM8uyhNdI-I7Cb-13">
+          <mxGeometry y="71" width="491" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-14" value="旋度\(\nabla \times \mathbf F\)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="214" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-15" value="$$\nabla \times \mathbf F$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1136.5" y="299.5" width="167" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-16" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;行列式&#39;value计算 is Scalar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1148" y="647" width="158" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-17" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;import \(\mathbf {i,j,k}\),进行向量运算&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1127" y="673" width="254" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-20" value="$$&lt;br&gt;\begin{vmatrix} &lt;br&gt;&lt;br&gt;\mathbf{i} &amp;amp; \mathbf{j} &amp;amp; \mathbf{k} \\&lt;br&gt;&lt;br&gt;\frac{\partial}{\partial x} &amp;amp; \frac{\partial}{\partial y} &amp;amp; \frac{\partial}{\partial z} \\&lt;br&gt;&lt;br&gt;F_x &amp;amp; F_y &amp;amp; F_z&lt;br&gt;\end{vmatrix}&lt;br&gt;$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="363" width="429" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-21" value="$$ \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \mathbf{i} - \left( \frac{\partial F_z}{\partial x} - \frac{\partial F_x}{\partial z} \right) \mathbf{j} + \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right) \mathbf{k}&lt;br&gt;  $$" style="text;whiteSpace=wrap;html=1;fontColor=#999999;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="459" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-22" value="$$\left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}, -(\frac{\partial F_z}{\partial x}-\frac{\partial F_x}{\partial z} ), \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right)$$" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1109.5" y="520" width="550" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-23" value="标量场 \( f \)" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="165" y="585" width="92" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-24" value="曲面/曲线" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="592" width="79" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-25" value="向量场 \( \mathbf{F} \)" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="809" y="592" width="144" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-26" value="向量场 \( \mathbf{F} \)" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="592" width="144" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;fontColor=#CCCCCC;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="578.5" y="325.5" width="20" height="851" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-29" value="\(\frac{\partial f}{\partial x}\)&amp;nbsp; &amp;nbsp;\(\frac{\partial F}{\partial x}\)&amp;nbsp; \(\frac{\partial F_x}{\partial x}\)&lt;div&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;均mean求偏导&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="352" y="796" width="481" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-11" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;scalar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="807" y="538.5" width="55" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#CCCCCC;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1449" y="846" as="sourcePoint" />
+            <mxPoint x="1365" y="777" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-33" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;Vector Foeld&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CTJ0CWzM8uyhNdI-I7Cb-30">
+          <mxGeometry x="-0.0885" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-34" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+          <mxGeometry x="1470" y="847" width="50" height="44" as="geometry">
+            <mxRectangle x="1470" y="847" width="309" height="122" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-31" value="\( \mathbf{F} = (F_x, F_y, F_z) \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="CTJ0CWzM8uyhNdI-I7Cb-34">
+          <mxGeometry x="24" y="5" width="189" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-32" value="若 \( \mathbf{F} = (x^2, \sin y, e^z) \)，则：&#xa;$$&#xa;F_x = x^2, \quad F_y = \sin y, \quad F_z = e^z.&#xa;$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="CTJ0CWzM8uyhNdI-I7Cb-34">
+          <mxGeometry x="49" y="42" width="266" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
