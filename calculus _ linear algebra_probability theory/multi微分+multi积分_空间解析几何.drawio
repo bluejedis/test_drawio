@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="3">
-  <diagram name="第 1 页" id="_FsjZId1IItgky6wcJSt">
-    <mxGraphModel dx="766" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+  <diagram name="第二类Surface integral" id="_FsjZId1IItgky6wcJSt">
+    <mxGraphModel dx="438" dy="276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,6 +122,45 @@
         </mxCell>
         <mxCell id="UpazrJVpiqtKpTAvuoWl-37" value="compare with Default 正方向" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="798" y="396" width="83" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-1" value="补面use Gauss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="297" width="99" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VAmmxpWrtjMy3Bp--fu1-2" target="VAmmxpWrtjMy3Bp--fu1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VAmmxpWrtjMy3Bp--fu1-2" target="VAmmxpWrtjMy3Bp--fu1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-2" value="2 types of 方向 need 确定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="349" width="155" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-3" value="Gauss&#39; 三重积分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="416" width="106" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-4" value="补面S1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1381" y="416" width="57" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-5" value="外侧 +" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1138" y="475" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VAmmxpWrtjMy3Bp--fu1-2" target="VAmmxpWrtjMy3Bp--fu1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-8" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1442" y="414" width="28" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-9" value="补面Sn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1473" y="416" width="57" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-12" value="compare法向量\(\mathbf n\) with z正半轴&lt;div&gt;锐角+，钝角-&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1364" y="475" width="235" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="VAmmxpWrtjMy3Bp--fu1-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="472" as="sourcePoint" />
+            <mxPoint x="1471" y="446" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
