@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="4">
   <diagram name="第二类Surface integral" id="_FsjZId1IItgky6wcJSt">
-    <mxGraphModel dx="1160" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="928" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,10 +175,10 @@
         <mxCell id="VAmmxpWrtjMy3Bp--fu1-17" value="与axis 做比较" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="754" y="415" width="91" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s9biQ23Cp5i9yznljj8n-2" value="&lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;Triple&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 179, 102);&quot;&gt;&amp;nbsp;&lt;/font&gt;integral" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="s9biQ23Cp5i9yznljj8n-2" value="&lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;Triple&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 179, 102);&quot;&gt;&amp;nbsp;&lt;/font&gt;integral" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1251" y="611" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s9biQ23Cp5i9yznljj8n-3" value="" style="curved=1;endArrow=none;html=1;rounded=0;startArrow=classic;startFill=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#999999;" edge="1" parent="1">
+        <mxCell id="s9biQ23Cp5i9yznljj8n-3" value="" style="curved=1;endArrow=none;html=1;rounded=0;startArrow=classic;startFill=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#999999;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1208" y="469" as="sourcePoint" />
             <mxPoint x="1285" y="590" as="targetPoint" />
@@ -187,11 +187,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9biQ23Cp5i9yznljj8n-4" value="mean: 空间体&#39; 质量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="s9biQ23Cp5i9yznljj8n-4" value="mean: 空间体&#39; 质量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1291" y="672" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s9biQ23Cp5i9yznljj8n-5" value="f(x)=1时→ 求V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="s9biQ23Cp5i9yznljj8n-5" value="f(x)=1时→ 求V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1315" y="707" width="96" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oHLNcMNpPwn93DTQa0tJ-5" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1171" y="765" width="288.5" height="26" as="geometry">
+            <mxRectangle x="1171" y="765" width="50" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHLNcMNpPwn93DTQa0tJ-2" value="直角坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="oHLNcMNpPwn93DTQa0tJ-5">
+          <mxGeometry x="19" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oHLNcMNpPwn93DTQa0tJ-3" value="柱.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="oHLNcMNpPwn93DTQa0tJ-5">
+          <mxGeometry x="127" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oHLNcMNpPwn93DTQa0tJ-4" value="球面.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="oHLNcMNpPwn93DTQa0tJ-5">
+          <mxGeometry x="239.5" width="49" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -330,6 +344,40 @@
         </mxCell>
         <mxCell id="CTJ0CWzM8uyhNdI-I7Cb-32" value="若 \( \mathbf{F} = (x^2, \sin y, e^z) \)，则： &#xa;$$ &#xa;F_x = x^2, \quad F_y = \sin y, \quad F_z = e^z. &#xa;$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="CTJ0CWzM8uyhNdI-I7Cb-34">
           <mxGeometry x="49" y="42" width="266" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="t99wyIc1wKQiaS8usNne" name="Triple integral">
+    <mxGraphModel dx="928" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-1" value="&lt;font style=&quot;color: rgb(102, 255, 102);&quot;&gt;Triple&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 179, 102);&quot;&gt;&amp;nbsp;&lt;/font&gt;integral" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-2" value="mean: 空间体&#39; 质量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="131" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-3" value="f(x)=1时→ 求V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="284" y="166" width="96" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-4" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="230" width="690" height="28" as="geometry">
+            <mxRectangle x="1171" y="765" width="50" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-5" value="直角坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="p4yAx3zHzeMEb2a5td-4-4">
+          <mxGeometry x="46.407079646017706" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-6" value="柱.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="p4yAx3zHzeMEb2a5td-4-4">
+          <mxGeometry x="310.1946902654867" width="37" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-7" value="球面.." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="p4yAx3zHzeMEb2a5td-4-4">
+          <mxGeometry x="593.6283185840708" y="-2" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4yAx3zHzeMEb2a5td-4-8" value="极+z轴" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
