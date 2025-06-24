@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6" pages="2">
   <diagram name="第 1 页" id="NctciwUggFrYQhLrWsF7">
     <mxGraphModel dx="2062" dy="1596" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="0" shadow="0">
       <root>
@@ -60,6 +60,114 @@
         </mxCell>
         <mxCell id="bQRkWYj3XIJHMTB0Zft1-21" value="Ⅱ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="1907" y="1460" width="30" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R_XeGd9AmmEwmu2P1GdA" name="triple_黎曼">
+    <mxGraphModel dx="1422" dy="845" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-3" value="三重积分**（Triple Integral）表示为**黎曼和的极限**（Limit of a Riemann Sum）的形式" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="465" width="497" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-4" value="核心思想: “分割、近似、求和、取极限”" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="507" width="235" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-5" value="$$\iiint_{\Omega} g(x, y, z) \,dv = \lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} g\left(a + \frac{b-a}{n}i, c + \frac{d-c}{n}j, e + \frac{f-e}{n}k\right) \cdot \frac{b-a}{n} \cdot \frac{d-c}{n} \cdot \frac{f-e}{n}$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="759" width="550" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-6" value="$$\Omega = \{(x, y, z) | a \le x \le b, c \le y \le d, e \le z \le f\}$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477" y="879" width="332" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcWgBoh-ajAfSAYZGSIt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-8" value="\( \Omega \) 是一个长方体" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477" y="930" width="167" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-9" value="由六个平面确定：\( x=a, x=b, y=c, y=d, z=e, z=f \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="491" y="961" width="293" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-10" value="分割 (Partitioning)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="791" y="887" width="123" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-11" value="将整个大的长方体 \( \Omega \) 切割成无数个非常非常小的长方体" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="803" y="920" width="375" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-12" value="x 轴上的区间 \( [a, b] \) 等分成 \( n \) 份，每份的宽度是 \( \Delta x = \frac{b-a}{n} \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="956" width="461" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-13" value="y 轴上的区间 \( [c, d] \) 等分成 \( n \) 份，每份的宽度是 \( \Delta y = \frac{d-c}{n} \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="817" y="996" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-14" value="z 轴上的区间 \( [e, f] \) 等分成 \( n \) 份，每份的宽度是 \( \Delta z = \frac{f-e}{n} \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1039" width="454" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-15" value="整个大长方体 \( \Omega \) 就被分成了 \( n \times n \times n = n^3 \) 个完全相同的小长方体" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="803" y="1089" width="508" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcWgBoh-ajAfSAYZGSIt-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1036.2239837646484" y="828.1165313720703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-16" value="近似 (Approximation)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="894.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="974" y="825" as="sourcePoint" />
+            <mxPoint x="1103" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-19" value="小长方体的体积：每个小长方体的体积都相同，我们称之为 \( \Delta V \)。&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;$$&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\Delta V = \Delta x \cdot \Delta y \cdot \Delta z = \frac{b-a}{n} \cdot \frac{d-c}{n} \cdot \frac{f-e}{n}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="938" width="550" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-20" value="* **在每个小长方体中取一个样本点**：我们不能直接计算一个不规则物体的“总质量”（如果把 \( g(x,y,z) \) 看作密度的话），但可以近似计算。我们在每个小长方体中选一个代表点（样本点），并假设整个小长方体的密度都等于这个样本点上的密度。&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;* 公式中选取的样本点是：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;$$(x_i, y_j, z_k) = \left(a + \frac{b-a}{n}i, c + \frac{d-c}{n}j, e + \frac{f-e}{n}k\right)$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="1077" width="550" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-21" value="这代表了第 \( (i, j, k) \) 个小长方体的一个顶点（具体来说是离原点最远的那个顶点）" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1277" y="1295" width="472" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-22" value="**计算每个小长方体的“质量”**：我们将该点的函数值（可以理解为密度）乘以这个小长方体的体积，得到这个小块的近似“质量”。&#xa;&#xa;$$&#xa;&#xa;\text{小块的近似质量} \approx g(x_i, y_j, z_k) \cdot \Delta V&#xa;&#xa;$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="1355" width="550" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="716" y="826" as="sourcePoint" />
+            <mxPoint x="959" y="826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-24" value="求和 (Summation)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="633" width="124" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-25" value="**三重求和符号 \( \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} \)**：这个符号的意思是，我们把所有 \( n^3 \) 个小长方体的近似“质量”全部加起来。&#xa;&#xa;* 这个总和就是对整个大长方体 \( \Omega \) 的“总质量”的一个近似值" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="666" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-26" value="取极限 (Taking the Limit)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1238" y="437" width="159" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-27" value="* **\( \lim_{n \to \infty} \)**：这是最关键的一步。当 \( n \) 趋向于无穷大时，意味着我们把长方体分割得越来越细，每个小长方体的体积 \( \Delta V \) 趋向于零。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="478" width="550" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-28" value="\( \iiint_{\Omega} g(x, y, z) \,dv \) 的物理意义之一:&amp;nbsp; 计算物体 \( \Omega \) 的**总质量**&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;其中 \( g(x, y, z) \) 是在点 \( (x, y, z) \) 处的**密度**函数。&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="1031.5" width="550" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652" y="826" as="sourcePoint" />
+            <mxPoint x="709" y="826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcWgBoh-ajAfSAYZGSIt-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="617" y="826" as="sourcePoint" />
+            <mxPoint x="644" y="826" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
