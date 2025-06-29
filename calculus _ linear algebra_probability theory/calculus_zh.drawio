@@ -68,7 +68,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R_XeGd9AmmEwmu2P1GdA" name="Triple_黎曼|2对称性|3types坐标count_Jacobian determinant">
-    <mxGraphModel dx="2166" dy="2040" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="1417" dy="1377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -473,21 +473,21 @@
         <mxCell id="CJz1dK9Nc5n2waGSmRnc-9" value="\( x = f(r, \theta, z) \) &#xa; &#xa; &#xa; &#xa;\( y = g(r, \theta, z) \) &#xa; &#xa; &#xa; &#xa;\( z = h(r, \theta, z) \)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6276" y="2397" width="136" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-14" value="← to do //线性变换角度理解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="7878" y="1965" width="166" height="26" as="geometry" />
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-14" value="← to do //线性变换角度理解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="9220" y="2009" width="166" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-16" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
-          <mxGeometry x="7940" y="2009" width="50" height="44" as="geometry">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-16" value="" style="group;collapsible=1;" parent="1" vertex="1" connectable="0" collapsed="1">
+          <mxGeometry x="9298" y="2064.5" width="50" height="44" as="geometry">
             <mxRectangle x="7940" y="2009" width="550" height="1681" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CJz1dK9Nc5n2waGSmRnc-13" value="&lt;br&gt;让我们逐行解析图中的表格，并与我们之前的讨论联系起来。 &lt;br&gt; &lt;br&gt;--- &lt;br&gt; &lt;br&gt;### 核心观点：作为线性映射的雅可比矩阵 &lt;br&gt; &lt;br&gt;我们之前讨论的重点是雅可比行列式 \(\det(J)\) 作为面积/体积的**缩放因子**。而这张图的重点是雅可比矩阵 \(J\) 本身，它扮演着一个**线性变换（或称线性映射）**的角色，将一个微小的输入变化向量 \(d\mathbf{x}\) 映射到一个微小的输出变化向量 \(d\mathbf{y}\)。 &lt;br&gt; &lt;br&gt;--- &lt;br&gt; &lt;br&gt;### 表格内容解析 &lt;br&gt; &lt;br&gt;#### 1. 一元函数: \(y = f(x)\) &lt;br&gt; &lt;br&gt;* **微分关系**: \(dy = f&#39;(x)dx\) &lt;br&gt;* **图中表示**: \(d\mathbf{y} = (dy)\), \(d\mathbf{x} = (dx)\), \(J = \frac{df}{dx}\)。 &lt;br&gt;* **理解**: 这是最简单的情形。输入变化 \(dx\) 是一个标量，输出变化 \(dy\) 也是一个标量。雅可比矩阵 \(J\) 此时就是一个 1x1 矩阵，其元素就是我们熟悉的一阶导数 \(f&#39;(x)\)。公式 \(d\mathbf{y} = J d\mathbf{x}\) 就退化为 \(dy = \frac{df}{dx} dx\)。 &lt;br&gt; &lt;br&gt;#### 2. 二元/多元函数: \(z = f(x, y)\) 或 \(y = f(x_1, ..., x_n)\) &lt;br&gt; &lt;br&gt;* **微分关系**: 全微分 \(dz = \frac{\partial f}{\partial x}dx + \frac{\partial f}{\partial y}dy\)。 &lt;br&gt;* **图中表示**: &lt;br&gt;    * 输出变化 \(d\mathbf{y} = (dz)\) (是一个标量)。 &lt;br&gt;    * 输入变化 \(d\mathbf{x} = \begin{pmatrix} dx \\ dy \end{pmatrix}\) (是一个向量)。 &lt;br&gt;    * 雅可比矩阵 \(J = \begin{pmatrix} \frac{\partial f}{\partial x} &amp;amp; \frac{\partial f}{\partial y} \end{pmatrix}\) (是一个 1x2 的行向量，也叫**梯度向量的转置**)。 &lt;br&gt;* **理解**: 公式 \(d\mathbf{y} = J d\mathbf{x}\) 此时是矩阵乘法： &lt;br&gt;    \[ (dz) = \begin{pmatrix} \frac{\partial f}{\partial x} &amp;amp; \frac{\partial f}{\partial y} \end{pmatrix} \begin{pmatrix} dx \\ dy \end{pmatrix} = \frac{\partial f}{\partial x}dx + \frac{\partial f}{\partial y}dy \] &lt;br&gt;    这完美地重现了全微分公式！它告诉我们，输入向量 \((x, y)\) 的微小变动 \((dx, dy)\) 是如何通过线性变换 \(J\) (即与梯度做点积) 影响输出值 \(z\) 的变化的。 &lt;br&gt; &lt;br&gt;#### 3. 方程组 (向量函数): \(\begin{cases} z_1 = f(x,y) \\ z_2 = g(x,y) \end{cases}\) &lt;br&gt; &lt;br&gt;这是与我们之前讨论的坐标变换**直接对应**的情况。 &lt;br&gt; &lt;br&gt;* **图中表示**: &lt;br&gt;    * 输出变化 \(d\mathbf{y} = \begin{pmatrix} dz_1 \\ dz_2 \end{pmatrix}\)。 &lt;br&gt;    * 输入变化 \(d\mathbf{x} = \begin{pmatrix} dx \\ dy \end{pmatrix}\)。 &lt;br&gt;    * 雅可比矩阵 \(J = \frac{\partial(f, g)}{\partial(x, y)} = \begin{pmatrix} \frac{\partial f}{\partial x} &amp;amp; \frac{\partial f}{\partial y} \\ \frac{\partial g}{\partial x} &amp;amp; \frac{\partial g}{\partial y} \end{pmatrix}\)。 &lt;br&gt;* **理解**: 公式 \(d\mathbf{y} = J d\mathbf{x}\) 展开为： &lt;br&gt;    \[ \begin{pmatrix} dz_1 \\ dz_2 \end{pmatrix} = \begin{pmatrix} \frac{\partial f}{\partial x} &amp;amp; \frac{\partial f}{\partial y} \\ \frac{\partial g}{\partial x} &amp;amp; \frac{\partial g}{\partial y} \end{pmatrix} \begin{pmatrix} dx \\ dy \end{pmatrix} \] &lt;br&gt;    这给出了一个深刻的几何图像：**雅可比矩阵 \(J\) 是一个线性算子，它将输入空间 `(x, y)` 中的一个微小位移向量 \((dx, dy)\) 变换为输出空间 `(z1, z2)` 中的一个微小位移向量 \((dz1, dz2)\)。** &lt;br&gt; &lt;br&gt;--- &lt;br&gt; &lt;br&gt;### 与我们之前讨论的坐标变换的联系 &lt;br&gt; &lt;br&gt;现在，我们将这个观点与之前的坐标变换讨论联系起来。以直角坐标 \(\to\) 极坐标为例： &lt;br&gt; &lt;br&gt;1.  **角色映射**: &lt;br&gt;    * 我们之前讨论的“旧坐标” `(x, y)` 对应图中的“因变量”（输出）\(\mathbf{y} = (z_1, z_2)\)。 &lt;br&gt;    * 我们之前讨论的“新坐标” `(r, θ)` 对应图中的“自变量”（输入）\(\mathbf{x} = (x, y)\)。 &lt;br&gt;    * 变换函数关系为 \(x = x(r, \theta)\) 和 \(y = y(r, \theta)\)。 &lt;br&gt; &lt;br&gt;2.  **套用公式**: &lt;br&gt;    将这些角色代入图中的公式 \(d\mathbf{y} = J d\mathbf{x}\)，得到： &lt;br&gt;     &lt;br&gt;    \[ &lt;br&gt;    \begin{pmatrix} dx \\ dy \end{pmatrix} = J \begin{pmatrix} dr \\ d\theta \end{pmatrix} &lt;br&gt;    \] &lt;br&gt;     &lt;br&gt;    这里的 \(J\) 正是我们之前计算的雅可比矩阵: &lt;br&gt;     &lt;br&gt;    \[ &lt;br&gt;    J = \frac{\partial(x, y)}{\partial(r, \theta)} = \begin{pmatrix} \frac{\partial x}{\partial r} &amp;amp; \frac{\partial x}{\partial \theta} \\ \frac{\partial y}{\partial r} &amp;amp; \frac{\partial y}{\partial \theta} \end{pmatrix} &lt;br&gt;    \] &lt;br&gt; &lt;br&gt;3.  **两种视角的统一**: &lt;br&gt;    * **图中的视角 (线性映射)**：雅可比矩阵 \(J\) 将新坐标系 `(r,θ)` 中的一个微元向量 \((dr, dθ)\) 线性地映射到旧坐标系 `(x,y)` 中的微元向量 \((dx, dy)\)。它描述了**向量本身**的变换。 &lt;br&gt;    * **我们之前的视角 (缩放因子)**：我们关心的是由这些微元向量张成的**面积**如何变化。一个线性变换 \(J\) 对面积的缩放比例，正好是其行列式的绝对值 \(|\det(J)|\)。因此，由 \((dr, dθ)\) 张成的微元面积 \(drd\theta\) 在变换后，其对应的面积 \(dxdy\) 就满足： &lt;br&gt;     &lt;br&gt;    \[ dx\,dy = |\det(J)| \, dr\,d\theta \] &lt;br&gt; &lt;br&gt;### 总结 &lt;br&gt; &lt;br&gt;图中的表格为我们提供了一个更基础、更普适的视角： &lt;br&gt;* 它将雅可比矩阵**定义为高维导数**，其作用是将输入空间的微分向量线性地变换为输出空间的微分向量。 &lt;br&gt;* 我们之前为了解决积分换元问题而引入的**雅可比行列式**，正是这个线性变换所导致的**面积或体积的缩放倍数**。 &lt;br&gt; &lt;br&gt;因此，图中的处理方法是我们之前讨论的理论基础。它从线性代数的角度完美诠释了雅可比矩阵的本质——一个局部的线性近似工具，而它的行列式则自然地成为了积分换元中的那个至关重要的缩放因子。" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-16" vertex="1">
           <mxGeometry x="37" y="133" width="550" height="1548" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-15" value="当然，我们可以用刚刚建立的框架来理解图中的处理方法。这张图实际上为我们之前的讨论提供了更深层次的、更具普遍性的线性代数视角。&#xa;&#xa;核心思想是：**雅可比矩阵 `J` 是导数概念在高维空间中的推广，它描述了一个函数在某一点附近的最佳线性近似。**&#xa;&#xa;公式 \(d\mathbf{y} = J \, d\mathbf{x}\) 就是这个思想的数学表达，它统一了从一元函数到多元向量函数的所有微分关系。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-16">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-15" value="当然，我们可以用刚刚建立的框架来理解图中的处理方法。这张图实际上为我们之前的讨论提供了更深层次的、更具普遍性的线性代数视角。 &#xa; &#xa;核心思想是：**雅可比矩阵 `J` 是导数概念在高维空间中的推广，它描述了一个函数在某一点附近的最佳线性近似。** &#xa; &#xa;公式 \(d\mathbf{y} = J \, d\mathbf{x}\) 就是这个思想的数学表达，它统一了从一元函数到多元向量函数的所有微分关系。" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-16" vertex="1">
           <mxGeometry x="37" width="550" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-22" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-22" value="" style="group;collapsible=1;" parent="1" vertex="1" connectable="0" collapsed="1">
           <mxGeometry x="5904" y="2535" width="50" height="44" as="geometry">
             <mxRectangle x="5904" y="2535" width="1442.998383470619" height="476" as="alternateBounds" />
           </mxGeometry>
@@ -501,47 +501,83 @@
         <mxCell id="CJz1dK9Nc5n2waGSmRnc-12" value="** 在极坐标中，由 \(dr\) 和 \(d\theta\) 张开的微元区域&lt;div&gt;&lt;ul&gt;&lt;li&gt;近似为一个两边长分别为 \(dr\)（径向长度）和 \(r\,d\theta\)（弧长）的微小矩形&lt;/li&gt;&lt;li&gt;它的面积 \(dA \approx dr \cdot (r\,d\theta) = r\,dr\,d\theta\)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="10" y="192.22000000000025" width="550" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-2" value="\[&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\det(J) = \det\left(\frac{\partial(x, y, z)}{\partial(r, \theta, z)}\right) =&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\det\begin{pmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\cos\theta &amp;amp; -r\sin\theta &amp;amp; 0 \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\theta &amp;amp; r\cos\theta &amp;amp; 0 \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;0 &amp;amp; 0 &amp;amp; 1&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{pmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;= r&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-2" value="\[&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\det(J) = \det\left(\frac{\partial(x, y, z)}{\partial(r, \theta, z)}\right) =&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\det\begin{pmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\cos\theta &amp;amp; -r\sin\theta &amp;amp; 0 \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\theta &amp;amp; r\cos\theta &amp;amp; 0 \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;0 &amp;amp; 0 &amp;amp; 1&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{pmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;= r&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\]" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="475" y="37" width="370" height="439" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-3" value="* \( x = r \cos\theta \)&#xa;&#xa;* \( y = r \sin\theta \)&#xa;&#xa;* \( z = z \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-3" value="* \( x = r \cos\theta \) &#xa; &#xa;* \( y = r \sin\theta \) &#xa; &#xa;* \( z = z \)" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="508" y="127.2199999999998" width="136" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-4" value="\[ (x, y, z) \quad \longrightarrow \quad (\rho, \theta, \phi) \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-4" value="\[ (x, y, z) \quad \longrightarrow \quad (\rho, \theta, \phi) \]" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="1067" width="330" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-7" value="* \( x = \rho \sin\phi \cos\theta \)&#xa;&#xa;* \( y = \rho \sin\phi \sin\theta \)&#xa;&#xa;* \( z = \rho \cos\phi \)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-7" value="* \( x = \rho \sin\phi \cos\theta \) &#xa; &#xa;* \( y = \rho \sin\phi \sin\theta \) &#xa; &#xa;* \( z = \rho \cos\phi \)" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="1067" y="185" width="194" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-10" value="\[&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;J = \frac{\partial(x, y, z)}{\partial(\rho, \theta, \phi)} =&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\begin{bmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial x}{\partial \rho} &amp;amp; \frac{\partial x}{\partial \theta} &amp;amp; \frac{\partial x}{\partial \phi} \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial y}{\partial \rho} &amp;amp; \frac{\partial y}{\partial \theta} &amp;amp; \frac{\partial y}{\partial \phi} \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial z}{\partial \rho} &amp;amp; \frac{\partial z}{\partial \theta} &amp;amp; \frac{\partial z}{\partial \phi}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{bmatrix}=&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\begin{bmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\phi \cos\theta &amp;amp; -\rho \sin\phi \sin\theta &amp;amp; \rho \cos\phi \cos\theta \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\phi \sin\theta &amp;amp; \rho \sin\phi \cos\theta &amp;amp; \rho \cos\phi \sin\theta \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\cos\phi &amp;amp; 0 &amp;amp; -\rho \sin\phi&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{bmatrix} =\det(J) = \rho^2 \sin\phi&lt;br&gt;&lt;br/&gt;&lt;br&gt;\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-10" value="\[&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;J = \frac{\partial(x, y, z)}{\partial(\rho, \theta, \phi)} =&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\begin{bmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial x}{\partial \rho} &amp;amp; \frac{\partial x}{\partial \theta} &amp;amp; \frac{\partial x}{\partial \phi} \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial y}{\partial \rho} &amp;amp; \frac{\partial y}{\partial \theta} &amp;amp; \frac{\partial y}{\partial \phi} \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\frac{\partial z}{\partial \rho} &amp;amp; \frac{\partial z}{\partial \theta} &amp;amp; \frac{\partial z}{\partial \phi}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{bmatrix}=&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\begin{bmatrix}&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\phi \cos\theta &amp;amp; -\rho \sin\phi \sin\theta &amp;amp; \rho \cos\phi \cos\theta \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\sin\phi \sin\theta &amp;amp; \rho \sin\phi \cos\theta &amp;amp; \rho \cos\phi \sin\theta \\&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\cos\phi &amp;amp; 0 &amp;amp; -\rho \sin\phi&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;\end{bmatrix} =\det(J) = \rho^2 \sin\phi&lt;br&gt;&lt;br/&gt;&lt;br&gt;\]" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="926" y="37" width="509" height="382" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-12" value="\[&#xa;   \det(J) = &#xa;   \begin{vmatrix}&#xa;   \sin\phi \cos\theta &amp; -\rho \sin\phi \sin\theta &amp; \rho \cos\phi \cos\theta \\&#xa;   \sin\phi \sin\theta &amp; \rho \sin\phi \cos\theta &amp; \rho \cos\phi \sin\theta \\&#xa;   \cos\phi &amp; 0 &amp; -\rho \sin\phi&#xa;   \end{vmatrix}&#xa;   \]" style="text;whiteSpace=wrap;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-22">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-12" value="\[&#xa;   \det(J) = &#xa;   \begin{vmatrix}&#xa;   \sin\phi \cos\theta &amp; -\rho \sin\phi \sin\theta &amp; \rho \cos\phi \cos\theta \\&#xa;   \sin\phi \sin\theta &amp; \rho \sin\phi \cos\theta &amp; \rho \cos\phi \sin\theta \\&#xa;   \cos\phi &amp; 0 &amp; -\rho \sin\phi&#xa;   \end{vmatrix}&#xa;   \]" style="text;whiteSpace=wrap;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1">
           <mxGeometry x="1033.998383470619" y="304.0008396314538" width="409" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-20" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="GEzhmqPFWTrEyapmFI3o-22" collapsed="1">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-20" value="" style="group;collapsible=1;" parent="GEzhmqPFWTrEyapmFI3o-22" vertex="1" connectable="0" collapsed="1">
           <mxGeometry x="1093" y="419" width="50" height="44" as="geometry">
             <mxRectangle x="6997" y="2954" width="553" height="788" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-13" value="&lt;br&gt;&lt;br/&gt;&lt;br&gt;   计算第一个二阶行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   (-\rho \sin\phi \sin\theta)(\rho \cos\phi \sin\theta) - (\rho \cos\phi \cos\theta)(\rho \sin\phi \cos\theta) = -\rho^2 \sin\phi \cos\phi \sin^2\theta - \rho^2 \sin\phi \cos\phi \cos^2\theta = -\rho^2 \sin\phi \cos\phi (\sin^2\theta + \cos^2\theta) = -\rho^2 \sin\phi \cos\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   计算第二个二阶行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   (\sin\phi \cos\theta)(\rho \sin\phi \cos\theta) - (-\rho \sin\phi \sin\theta)(\sin\phi \sin\theta) = \rho \sin^2\phi \cos^2\theta + \rho \sin^2\phi \sin^2\theta = \rho \sin^2\phi (\cos^2\theta + \sin^2\theta) = \rho \sin^2\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   代入回行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   \det(J) = \cos\phi \cdot (-\rho^2 \sin\phi \cos\phi) + (-\rho \sin\phi) \cdot (\rho \sin^2\phi) = -\rho^2 \sin\phi \cos^2\phi - \rho^2 \sin^3\phi = -\rho^2 \sin\phi (\cos^2\phi + \sin^2\phi) = -\rho^2 \sin\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   由于行列式的绝对值表示体积元的比例因子，通常取正值，因此：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   \det(J) = \rho^2 \sin\phi&lt;br/&gt;&lt;br&gt;   \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-20">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-13" value="&lt;br&gt;&lt;br/&gt;&lt;br&gt;   计算第一个二阶行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   (-\rho \sin\phi \sin\theta)(\rho \cos\phi \sin\theta) - (\rho \cos\phi \cos\theta)(\rho \sin\phi \cos\theta) = -\rho^2 \sin\phi \cos\phi \sin^2\theta - \rho^2 \sin\phi \cos\phi \cos^2\theta = -\rho^2 \sin\phi \cos\phi (\sin^2\theta + \cos^2\theta) = -\rho^2 \sin\phi \cos\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   计算第二个二阶行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   (\sin\phi \cos\theta)(\rho \sin\phi \cos\theta) - (-\rho \sin\phi \sin\theta)(\sin\phi \sin\theta) = \rho \sin^2\phi \cos^2\theta + \rho \sin^2\phi \sin^2\theta = \rho \sin^2\phi (\cos^2\theta + \sin^2\theta) = \rho \sin^2\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   代入回行列式：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   \det(J) = \cos\phi \cdot (-\rho^2 \sin\phi \cos\phi) + (-\rho \sin\phi) \cdot (\rho \sin^2\phi) = -\rho^2 \sin\phi \cos^2\phi - \rho^2 \sin^3\phi = -\rho^2 \sin\phi (\cos^2\phi + \sin^2\phi) = -\rho^2 \sin\phi&lt;br/&gt;&lt;br&gt;   \]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   由于行列式的绝对值表示体积元的比例因子，通常取正值，因此：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;   \[&lt;br/&gt;&lt;br&gt;   \det(J) = \rho^2 \sin\phi&lt;br/&gt;&lt;br&gt;   \]" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-20" vertex="1">
           <mxGeometry x="38" y="133" width="550" height="655" as="geometry" />
         </mxCell>
-        <mxCell id="GEzhmqPFWTrEyapmFI3o-19" value="按第三行展开：&#xa;&#xa;\[&#xa;\det(J) = \cos\phi \cdot&#xa;\begin{vmatrix}&#xa;-\rho \sin\phi \sin\theta &amp; \rho \cos\phi \cos\theta \\&#xa;\rho \sin\phi \cos\theta &amp; \rho \cos\phi \sin\theta&#xa;\end{vmatrix}&#xa;- 0 \cdot (\text{无关项})&#xa;+ (-\rho \sin\phi) \cdot&#xa;\begin{vmatrix}&#xa;\sin\phi \cos\theta &amp; -\rho \sin\phi \sin\theta \\&#xa;\sin\phi \sin\theta &amp; \rho \sin\phi \cos\theta&#xa;\end{vmatrix}&#xa;\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="GEzhmqPFWTrEyapmFI3o-20">
+        <mxCell id="GEzhmqPFWTrEyapmFI3o-19" value="按第三行展开： &#xa; &#xa;\[ &#xa;\det(J) = \cos\phi \cdot &#xa;\begin{vmatrix} &#xa;-\rho \sin\phi \sin\theta &amp; \rho \cos\phi \cos\theta \\ &#xa;\rho \sin\phi \cos\theta &amp; \rho \cos\phi \sin\theta &#xa;\end{vmatrix} &#xa;- 0 \cdot (\text{无关项}) &#xa;+ (-\rho \sin\phi) \cdot &#xa;\begin{vmatrix} &#xa;\sin\phi \cos\theta &amp; -\rho \sin\phi \sin\theta \\ &#xa;\sin\phi \sin\theta &amp; \rho \sin\phi \cos\theta &#xa;\end{vmatrix} &#xa;\]" style="text;whiteSpace=wrap;html=1;" parent="GEzhmqPFWTrEyapmFI3o-20" vertex="1">
           <mxGeometry x="44" width="291" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-1" value="why is 偏导数？" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6741" y="2117" width="124" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-2" value="..行列式？" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6741" y="2171" width="124" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-3" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6717" y="2177" as="sourcePoint" />
+            <mxPoint x="6511" y="2281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-4" value="only偏导数can catch一个多变量函数 in各个独立方向上的局部变化率" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6902" y="2068" width="376" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-5" value="&lt;ul&gt;&lt;li&gt;从而构建出这个变换在任意一点的“线性近似”或“线性尺子”——雅可比矩阵 (J)&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6935" y="2096" width="353" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-6" value="↑ 根本的几何意义之一: 度量一个线性变换to“有向面积”或“有向体积”space&#39;&#39;改变程度" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6935" y="2223" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-7" value="这个线性变换 (J) to 一个单位面积（or体积）&#39;缩放倍率 ← a certain 值" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6902" y="2176" width="429" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-10" value="&amp;nbsp;a) 一维&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;在一维情况下，对于函数 \(y = f(x)\)，我们如何在点 \(x_0\) 附近近似它？我们使用切线。切线的斜率就是导数 \(f&#39;(x_0)\)。这个导数告诉我们：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&amp;gt; 当 \(x\) 从 \(x_0\) 发生一个微小的变化 \(dx\) 时，\(y\) 会相应地发生一个近似的变化 \(dy \approx f&#39;(x_0) dx\)。&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;这里的 \(f&#39;(x_0)\) 就是一个**局部的线性缩放因子**，一把局部的“尺子”。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6966" y="1588" width="550" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-11" value="&amp;nbsp;b) 推广到二维&lt;br&gt;&lt;br&gt;现在，我们有一个坐标变换，比如从 `(u, v)` 坐标系到 `(x, y)` 坐标系：&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\(x = x(u, v)\)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\(y = y(u, v)\)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;我们想知道，当我们在 `(u, v)` 空间中的点 \((u_0, v_0)\) 附近移动一个微小的向量 \((du, dv)\) 时，在 `(x, y)` 空间中会发生怎样的变化 \((dx, dy)\)？&lt;br&gt;&lt;br&gt;&lt;br&gt;这个变化是两方面因素共同作用的结果：&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;1. **沿 u 方向的变化**：当我们只在 `u` 方向移动 `du` 时，`x` 和 `y` 会如何变化？这个变化率正是由**偏导数** \(\frac{\partial x}{\partial u}\) 和 \(\frac{\partial y}{\partial u}\) 来描述的。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;2. **沿 v 方向的变化**：同理，当我们只在 `v` 方向移动 `dv` 时，`x` 和 `y` 的变化率由 \(\frac{\partial x}{\partial v}\) 和 \(\frac{\partial y}{\partial v}\) 描述。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7562" y="1584.51" width="550" height="914" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-12" value="将这两个方向上的影响线性叠加起来（因为我们是在做一个线性近似），我们就得到了总的变化：&#xa;&#xa;&#xa;&#xa;\[ dx \approx \frac{\partial x}{\partial u} du + \frac{\partial x}{\partial v} dv \]&#xa;&#xa;\[ dy \approx \frac{\partial y}{\partial u} du + \frac{\partial y}{\partial v} dv \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8139" y="1617" width="550" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="Ne-8IUwEm_anBc22tZQG-13" value="这就是全微分的公式。如果我们把它写成矩阵形式，就是：&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;\[&#xa;&#xa;&#xa;&#xa;\begin{pmatrix} dx \\ dy \end{pmatrix}&#xa;&#xa;&#xa;&#xa;\approx&#xa;&#xa;&#xa;&#xa;\begin{pmatrix}&#xa;&#xa;&#xa;&#xa;\frac{\partial x}{\partial u} &amp; \frac{\partial x}{\partial v} \\&#xa;&#xa;&#xa;&#xa;\frac{\partial y}{\partial u} &amp; \frac{\partial y}{\partial v}&#xa;&#xa;&#xa;&#xa;\end{pmatrix}&#xa;&#xa;&#xa;&#xa;\begin{pmatrix} du \\ dv \end{pmatrix}&#xa;&#xa;&#xa;&#xa;\]&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;这个矩阵就是**雅可比矩阵 \(J\)**。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8714" y="1620" width="340" height="727" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="6YN9OXydNIkHuUSU0x00" name="Triple_count">
-    <mxGraphModel dx="1564" dy="1473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="2024" dy="1967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="7866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FR7SfB3Vd70fClhPY_6M-1" value="sum_limit → 黎曼integral" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="32" y="83" width="151" height="26" as="geometry" />
+        <mxCell id="FR7SfB3Vd70fClhPY_6M-1" value="&lt;font style=&quot;color: rgb(153, 153, 153); font-size: 16px;&quot;&gt;&lt;b&gt;sum_limit → 黎曼integral&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4" y="81" width="207" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" target="QFIybf_q6WkL5CqQTeDr-1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" target="QFIybf_q6WkL5CqQTeDr-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="371" y="244" as="sourcePoint" />
             <Array as="points">
@@ -550,83 +586,86 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-6" value="\[L = \lim_{n \to \infty} \frac{\pi}{2n^5} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} i^2 \sin\left(\frac{\pi j}{2n}\right) \cos\left(\frac{k}{n}\right)\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-6" value="\[L = \lim_{n \to \infty} \frac{\pi}{2n^5} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} i^2 \sin\left(\frac{\pi j}{2n}\right) \cos\left(\frac{k}{n}\right)\]" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="96" y="169" width="550" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-1" value="\[&#xa;\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right) \cdot \frac{1}{n^3} = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz.&#xa;\]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-1" value="\[&#xa;\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right) \cdot \frac{1}{n^3} = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz.&#xa;\]" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1860.0011907958983" y="168.99521362304688" width="550" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-3" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-3" value="" style="group;collapsible=1;" parent="1" vertex="1" connectable="0" collapsed="1">
           <mxGeometry x="856" width="50" height="44" as="geometry">
             <mxRectangle x="767" y="314" width="554" height="899" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="QFIybf_q6WkL5CqQTeDr-3" source="tjyF6l-yUaZ-eFzPZMlu-4">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="QFIybf_q6WkL5CqQTeDr-3" source="tjyF6l-yUaZ-eFzPZMlu-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="573.7919006347656" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-4" value="在解决这类问题时，我们最常使用一种特殊且简单的形式，即积分区间为 \([0, 1]\)，并且取每个子区间的右端点为样本点：&#xa;&#xa;* 积分区间：\([a, b] = [0, 1]\)&#xa;&#xa;* 小区间宽度：\(\Delta x = \frac{1-0}{n} = \frac{1}{n}\)&#xa;&#xa;* 样本点：\(x_i = a + i \cdot \Delta x = 0 + i \cdot \frac{1}{n} = \frac{i}{n}\)&#xa;&#xa;&#xa;&#xa;代入后，我们得到一个非常关键的“极限求和”与“定积分”转换公式：&#xa;&#xa;\[\boxed{\lim_{n \to \infty} \sum_{i=1}^{n} f\left(\frac{i}{n}\right) \frac{1}{n} = \int_0^1 f(x) \,dx}\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="QFIybf_q6WkL5CqQTeDr-3">
+        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-4" value="在解决这类问题时，我们最常使用一种特殊且简单的形式，即积分区间为 \([0, 1]\)，并且取每个子区间的右端点为样本点： &#xa; &#xa;* 积分区间：\([a, b] = [0, 1]\) &#xa; &#xa;* 小区间宽度：\(\Delta x = \frac{1-0}{n} = \frac{1}{n}\) &#xa; &#xa;* 样本点：\(x_i = a + i \cdot \Delta x = 0 + i \cdot \frac{1}{n} = \frac{i}{n}\) &#xa; &#xa; &#xa; &#xa;代入后，我们得到一个非常关键的“极限求和”与“定积分”转换公式： &#xa; &#xa;\[\boxed{\lim_{n \to \infty} \sum_{i=1}^{n} f\left(\frac{i}{n}\right) \frac{1}{n} = \int_0^1 f(x) \,dx}\]" style="text;whiteSpace=wrap;html=1;" parent="QFIybf_q6WkL5CqQTeDr-3" vertex="1">
           <mxGeometry y="676" width="550" height="223" as="geometry" />
         </mxCell>
-        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-5" value="推广到三重积分。对于一个在单位立方体区域 \(\Omega = [0, 1] \times [0, 1] \times [0, 1]\) 上定义的函数 \(g(x, y, z)\)，其三重积分可以表示为：&#xa;&#xa;&#xa;&#xa;\[\iiint_{\Omega} g(x, y, z) \,dV = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz\]&#xa;&#xa;&#xa;&#xa;同样地，我们可以用黎曼和的极限来定义它。我们将这个单位立方体切分成 \(n^3\) 个小立方体，每个小立方体的体积是 \(\Delta V = \Delta x \Delta y \Delta z = \frac{1}{n} \cdot \frac{1}{n} \cdot \frac{1}{n} = \frac{1}{n^3}\)。&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;取每个小立方体的“右上角”点 \((x_i, y_j, z_k) = (\frac{i}{n}, \frac{j}{n}, \frac{k}{n})\)作为样本点，我们就得到了三重积分的转换公式：&#xa;&#xa;&#xa;&#xa;\[\boxed{\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right) \frac{1}{n^3} = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz}\]&#xa;&#xa;&#xa;&#xa;这个公式就是我们解题的“目标形态”。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="QFIybf_q6WkL5CqQTeDr-3">
+        <mxCell id="tjyF6l-yUaZ-eFzPZMlu-5" value="推广到三重积分。对于一个在单位立方体区域 \(\Omega = [0, 1] \times [0, 1] \times [0, 1]\) 上定义的函数 \(g(x, y, z)\)，其三重积分可以表示为： &#xa; &#xa; &#xa; &#xa;\[\iiint_{\Omega} g(x, y, z) \,dV = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz\] &#xa; &#xa; &#xa; &#xa;同样地，我们可以用黎曼和的极限来定义它。我们将这个单位立方体切分成 \(n^3\) 个小立方体，每个小立方体的体积是 \(\Delta V = \Delta x \Delta y \Delta z = \frac{1}{n} \cdot \frac{1}{n} \cdot \frac{1}{n} = \frac{1}{n^3}\)。 &#xa; &#xa; &#xa; &#xa; &#xa; &#xa; &#xa; &#xa;取每个小立方体的“右上角”点 \((x_i, y_j, z_k) = (\frac{i}{n}, \frac{j}{n}, \frac{k}{n})\)作为样本点，我们就得到了三重积分的转换公式： &#xa; &#xa; &#xa; &#xa;\[\boxed{\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right) \frac{1}{n^3} = \int_0^1 \int_0^1 \int_0^1 g(x, y, z) \,dx\,dy\,dz}\] &#xa; &#xa; &#xa; &#xa;这个公式就是我们解题的“目标形态”。" style="text;whiteSpace=wrap;html=1;" parent="QFIybf_q6WkL5CqQTeDr-3" vertex="1">
           <mxGeometry x="4" y="32" width="550" height="454" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-6" value="1. **分离常数，聚焦变量：**&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;将与求和变量 \(i, j, k\) 无关的常数 \(\frac{\pi}{2}\) 提出来。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\[L = \frac{\pi}{2} \lim_{n \to \infty} \frac{1}{n^5} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} i^2 \sin\left(\frac{\pi j}{2n}\right) \cos\left(\frac{k}{n}\right)\]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-6" value="1. **分离常数，聚焦变量：**&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;将与求和变量 \(i, j, k\) 无关的常数 \(\frac{\pi}{2}\) 提出来。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\[L = \frac{\pi}{2} \lim_{n \to \infty} \frac{1}{n^5} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} i^2 \sin\left(\frac{\pi j}{2n}\right) \cos\left(\frac{k}{n}\right)\]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="83" y="593" width="550" height="698" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-7" value="2. **构造积分变量 (`x`, `y`, `z`)：**&#xa;&#xa;&#xa;&#xa;我们的目标形态中，函数部分是 \(g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right)\)。我们观察求和内部的项：&#xa;&#xa;&#xa;&#xa;* `i^2` 项：为了得到 `(i/n)` 的形式，我们需要给它配上一个 `1/n^2`，变成 `(i/n)^2`。&#xa;&#xa;&#xa;&#xa;* `sin(πj / 2n)` 项：它可以看作 `sin( (π/2) * (j/n) )`。这已经是 `j/n` 的函数形式了。&#xa;&#xa;&#xa;&#xa;* `cos(k/n)` 项：这已经是 `k/n` 的函数形式了。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-7" value="2. **构造积分变量 (`x`, `y`, `z`)：** &#xa; &#xa; &#xa; &#xa;我们的目标形态中，函数部分是 \(g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right)\)。我们观察求和内部的项： &#xa; &#xa; &#xa; &#xa;* `i^2` 项：为了得到 `(i/n)` 的形式，我们需要给它配上一个 `1/n^2`，变成 `(i/n)^2`。 &#xa; &#xa; &#xa; &#xa;* `sin(πj / 2n)` 项：它可以看作 `sin( (π/2) * (j/n) )`。这已经是 `j/n` 的函数形式了。 &#xa; &#xa; &#xa; &#xa;* `cos(k/n)` 项：这已经是 `k/n` 的函数形式了。" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="482" y="590" width="550" height="281" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-8" value="3. **构造微分元 (`dV = dx dy dz`)：**&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;目标形态需要一个体积微元 \(\Delta V\)，在我们的模型里就是 \(\frac{1}{n^3}\)。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-8" value="3. **构造微分元 (`dV = dx dy dz`)：** &#xa; &#xa; &#xa; &#xa; &#xa; &#xa; &#xa; &#xa;目标形态需要一个体积微元 \(\Delta V\)，在我们的模型里就是 \(\frac{1}{n^3}\)。" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="973" y="590" width="447" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-9" value="\[L = \frac{\pi}{2} \lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} \left[ \frac{i^2}{n^2} \cdot \sin\left(\frac{\pi}{2} \cdot \frac{j}{n}\right) \cdot \cos\left(\frac{k}{n}\right) \right] \cdot \frac{1}{n^3}\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-9" value="\[L = \frac{\pi}{2} \lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} \left[ \frac{i^2}{n^2} \cdot \sin\left(\frac{\pi}{2} \cdot \frac{j}{n}\right) \cdot \cos\left(\frac{k}{n}\right) \right] \cdot \frac{1}{n^3}\]" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="351" width="550" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="543" as="sourcePoint" />
             <mxPoint x="640" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-11" value="\[\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} \underbrace{ \left[ \left(\frac{i}{n}\right)^2 \sin\left(\frac{\pi}{2} \frac{j}{n}\right) \cos\left(\frac{k}{n}\right) \right] }_{g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right)} \underbrace{ \frac{1}{n^3} }_{\Delta V}\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-11" value="\[\lim_{n \to \infty} \sum_{i=1}^{n} \sum_{j=1}^{n} \sum_{k=1}^{n} \underbrace{ \left[ \left(\frac{i}{n}\right)^2 \sin\left(\frac{\pi}{2} \frac{j}{n}\right) \cos\left(\frac{k}{n}\right) \right] }_{g\left(\frac{i}{n}, \frac{j}{n}, \frac{k}{n}\right)} \underbrace{ \frac{1}{n^3} }_{\Delta V}\]" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1013" y="360" width="550" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-12" value="\[L = \frac{\pi}{2} \int_0^1 \int_0^1 \int_0^1 x^2 \sin\left(\frac{\pi}{2}y\right) \cos(z) \,dx\,dy\,dz\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-12" value="\[L = \frac{\pi}{2} \int_0^1 \int_0^1 \int_0^1 x^2 \sin\left(\frac{\pi}{2}y\right) \cos(z) \,dx\,dy\,dz\]" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1560" y="360" width="518" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-13" value="* 积分变量的对应关系：\(\frac{i}{n} \to x\), \(\frac{j}{n} \to y\), \(\frac{k}{n} \to z\)&#xa;&#xa;&#xa;&#xa;* 被积函数：\(g(x, y, z) = x^2 \sin\left(\frac{\pi}{2} y\right) \cos(z)\)&#xa;&#xa;&#xa;&#xa;* 积分区域：由于是 `i/n`, `j/n`, `k/n` 的形式，积分区域是单位立方体 \([0, 1] \times [0, 1] \times [0, 1]\)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-13" value="* 积分变量的对应关系：\(\frac{i}{n} \to x\), \(\frac{j}{n} \to y\), \(\frac{k}{n} \to z\) &#xa; &#xa; &#xa; &#xa;* 被积函数：\(g(x, y, z) = x^2 \sin\left(\frac{\pi}{2} y\right) \cos(z)\) &#xa; &#xa; &#xa; &#xa;* 积分区域：由于是 `i/n`, `j/n`, `k/n` 的形式，积分区域是单位立方体 \([0, 1] \times [0, 1] \times [0, 1]\)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1615" y="481" width="550" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-15" value="← skill:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-15" value="← skill:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2165" y="382" width="57" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-16" value="积分区域为rectanglular" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-16" value="积分区域为rectanglular" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2181" y="421" width="141" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-17" value="&amp;amp;被积函数to x y z可分离" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-17" value="&amp;amp;被积函数to x y z可分离" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2185" y="452" width="148" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-19" value="∴ 分别计算这三个积分：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;1. \[\int_0^1 x^2 \,dx = \left[ \frac{x^3}{3} \right]_0^1 = \frac{1}{3} - 0 = \frac{1}{3}\]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;2. \[\int_0^1 \sin\left(\frac{\pi}{2}y\right) \,dy = \left[ -\frac{2}{\pi}\cos\left(\frac{\pi}{2}y\right) \right]_0^1 = -\frac{2}{\pi}\left(\cos\left(\frac{\pi}{2}\right) - \cos(0)\right) = -\frac{2}{\pi}(0 - 1) = \frac{2}{\pi}\]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;3. \[\int_0^1 \cos(z) \,dz = \left[ \sin(z) \right]_0^1 = \sin(1) - \sin(0) = \sin(1)\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-19" value="∴ 分别计算这三个积分：&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;1. \[\int_0^1 x^2 \,dx = \left[ \frac{x^3}{3} \right]_0^1 = \frac{1}{3} - 0 = \frac{1}{3}\]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;2. \[\int_0^1 \sin\left(\frac{\pi}{2}y\right) \,dy = \left[ -\frac{2}{\pi}\cos\left(\frac{\pi}{2}y\right) \right]_0^1 = -\frac{2}{\pi}\left(\cos\left(\frac{\pi}{2}\right) - \cos(0)\right) = -\frac{2}{\pi}(0 - 1) = \frac{2}{\pi}\]&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;&lt;br/&gt;&lt;br&gt;3. \[\int_0^1 \cos(z) \,dz = \left[ \sin(z) \right]_0^1 = \sin(1) - \sin(0) = \sin(1)\]" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1589" y="676" width="550" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-20" value="**富比尼定理 (Fubini&#39;s Theorem)** 的一个推论" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-20" value="**富比尼定理 (Fubini&#39;s Theorem)** 的一个推论" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2211" y="528" width="273" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-22" value="↑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-22" value="↑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2281" y="488" width="24" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-23" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-23" value="" style="group;collapsible=1;" parent="1" vertex="1" connectable="0" collapsed="1">
           <mxGeometry x="2241" y="577" width="50" height="44" as="geometry">
             <mxRectangle x="2241" y="577" width="550" height="280" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-18" value="在本题中：&lt;br&gt;&lt;ul&gt;&lt;li&gt;1.  被积函数 \(g(x,y,z) = x^2 \sin\left(\frac{\pi}{2}y\right) \cos(z)\) 满足可分离条件，其中 \(f(x)=x^2\), \(h(y)=\sin\left(\frac{\pi}{2}y\right)\), \(k(z)=\cos(z)\)。&lt;/li&gt;&lt;li&gt;2.  积分区域是单位立方体 \([0,1] \times [0,1] \times [0,1]\)，是一个典型的矩形域。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="QFIybf_q6WkL5CqQTeDr-23">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-18" value="在本题中：&lt;br&gt;&lt;ul&gt;&lt;li&gt;1.  被积函数 \(g(x,y,z) = x^2 \sin\left(\frac{\pi}{2}y\right) \cos(z)\) 满足可分离条件，其中 \(f(x)=x^2\), \(h(y)=\sin\left(\frac{\pi}{2}y\right)\), \(k(z)=\cos(z)\)。&lt;/li&gt;&lt;li&gt;2.  积分区域是单位立方体 \([0,1] \times [0,1] \times [0,1]\)，是一个典型的矩形域。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="QFIybf_q6WkL5CqQTeDr-23" vertex="1">
           <mxGeometry y="157.7142857142857" width="550" height="145.14285714285714" as="geometry" />
         </mxCell>
-        <mxCell id="QFIybf_q6WkL5CqQTeDr-21" value="将多重积分拆分为多个单重积分的乘积，必须同时满足**两个严格的条件**：&#xa;&#xa;1. **被积函数可分离 (Separable Function):** 被积函数 \(g(x, y, z)\) 可以写成三个各自只含一个变量的函数的乘积，即 \(g(x,y,z) = f(x) \cdot h(y) \cdot k(z)\)。&#xa;2. **积分域为矩形域 (Rectangular Domain):** 积分区域是一个“长方体”，其每个变量的积分上下限都是**常数**。例如 \(\int_e^f \int_c^d \int_a^b ...\)，其中 a, b, c, d, e, f 均为常数。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="QFIybf_q6WkL5CqQTeDr-23">
+        <mxCell id="QFIybf_q6WkL5CqQTeDr-21" value="将多重积分拆分为多个单重积分的乘积，必须同时满足**两个严格的条件**： &#xa; &#xa;1. **被积函数可分离 (Separable Function):** 被积函数 \(g(x, y, z)\) 可以写成三个各自只含一个变量的函数的乘积，即 \(g(x,y,z) = f(x) \cdot h(y) \cdot k(z)\)。 &#xa;2. **积分域为矩形域 (Rectangular Domain):** 积分区域是一个“长方体”，其每个变量的积分上下限都是**常数**。例如 \(\int_e^f \int_c^d \int_a^b ...\)，其中 a, b, c, d, e, f 均为常数。" style="text;whiteSpace=wrap;html=1;" parent="QFIybf_q6WkL5CqQTeDr-23" vertex="1">
           <mxGeometry y="22.857142857142854" width="550" height="123.42857142857142" as="geometry" />
+        </mxCell>
+        <mxCell id="omQ7KGIeFJ93byUqCj5j-1" value="&lt;font style=&quot;color: rgb(153, 153, 153); font-size: 16px;&quot;&gt;&lt;b&gt;sum_limit → 黎曼integral&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2948" y="112" width="207" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
