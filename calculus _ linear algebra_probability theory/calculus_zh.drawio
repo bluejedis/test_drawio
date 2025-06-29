@@ -582,7 +582,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6YN9OXydNIkHuUSU0x00" name="Triple_count">
-    <mxGraphModel dx="5547" dy="2295" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="4754" dy="1967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8866" pageHeight="7866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -832,31 +832,22 @@
         <mxCell id="nuftQ3Ezpe6QDJWywS73-52" value="华里士公式 (Wallis&#39; Formula)" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="6723" y="2405" width="219" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-53" value="对于奇数 \(n \ge 3\)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-53" value="奇数 \(n \ge 3\)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6755" y="2505" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-54" value="\(\int_{0}^{\frac{\pi}{2}} \sin^n x \, dx = \frac{(n-1)!!}{n!!}\)&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6782" y="2540" width="504" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-57" value="&lt;div&gt;从 \( n \) 开始，按同奇偶性逐次减2连乘&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7736" y="2440" width="315" height="36" as="geometry" />
-        </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-58" value="双阶乘\(n!!\)" style="text;whiteSpace=wrap;html=1;fontColor=#999999;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="7713" y="2391" width="64" height="36" as="geometry" />
+          <mxGeometry x="7500" y="2390" width="64" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-59" value="\[&#xa;     n!! = \prod_{k=0}^{\lceil n/2 \rceil -1} (n - 2k)&#xa;     \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7787" y="2481" width="258" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-60" value="即从 \( n \) 开始，每次减 2，连乘到 1 或 2" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7758" y="2563" width="252" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-61" value="对于偶数\(n \ge 2 \)&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6748" y="2596" width="426" height="34" as="geometry" />
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-61" value="偶数\(n \ge 2 \)&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6755" y="2592" width="426" height="34" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-62" value="\[ \int_{0}^{\frac{\pi}{2}} \sin^n\theta \, d\theta = \frac{(n-1)!!}{n!!} \cdot \frac{\pi}{2} \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6780" y="2620" width="438" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="nuftQ3Ezpe6QDJWywS73-64" value="\(\cos \theta\)同理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-64" value="\(\cos \theta\)同理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="7048" y="2540" width="112" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-65" value=".." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -878,13 +869,13 @@
           <mxGeometry x="6829" y="2927" width="493" height="36" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-72" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;in domain:\([0, \frac{\pi}{2}]\)&lt;/span&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;\(\cos\theta = \sin(\frac{\pi}{2} - \theta)\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="7365" y="2540" width="222" height="36" as="geometry" />
+          <mxGeometry x="7244" y="2545" width="222" height="36" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-73" value="令\(\phi=\frac{\pi}{2}-\theta\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="7342" y="2590" width="164" height="26" as="geometry" />
+          <mxGeometry x="7221" y="2595" width="164" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-74" value="conclusion same" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="7370.5" y="2616" width="107" height="26" as="geometry" />
+          <mxGeometry x="7249.5" y="2621" width="107" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-75" value="&lt;font style=&quot;font-size: 14px; color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;or utilize 对称性 &amp;amp; walis&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6202" y="2348" width="174" height="36" as="geometry" />
@@ -906,6 +897,26 @@
         </mxCell>
         <mxCell id="nuftQ3Ezpe6QDJWywS73-81" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.288;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;strokeColor=#999999;" edge="1" parent="1" source="nuftQ3Ezpe6QDJWywS73-80" target="nuftQ3Ezpe6QDJWywS73-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-82" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6115" y="2734" as="sourcePoint" />
+            <mxPoint x="6117" y="2341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-83" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1" collapsed="1">
+          <mxGeometry x="7523" y="2439" width="50" height="44" as="geometry">
+            <mxRectangle x="7523" y="2439" width="315" height="159" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-57" value="&lt;div&gt;从 \( n \) 开始，按同奇偶性逐次减2连乘&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="nuftQ3Ezpe6QDJWywS73-83">
+          <mxGeometry y="21" width="315" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-59" value="\[&#xa;     n!! = \prod_{k=0}^{\lceil n/2 \rceil -1} (n - 2k)&#xa;     \]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="nuftQ3Ezpe6QDJWywS73-83">
+          <mxGeometry x="51" y="41" width="258" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="nuftQ3Ezpe6QDJWywS73-60" value="即从 \( n \) 开始，每次减 2，连乘到 1 或 2" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="nuftQ3Ezpe6QDJWywS73-83">
+          <mxGeometry x="22" y="123" width="252" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
