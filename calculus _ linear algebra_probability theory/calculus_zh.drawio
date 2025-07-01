@@ -1361,7 +1361,7 @@
         <mxCell id="fDynNpyQAB81bh-Qlnlq-3" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;巧设parameter&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="8972" y="6316" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fDynNpyQAB81bh-Qlnlq-4" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;椭球体 → 球体&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="fDynNpyQAB81bh-Qlnlq-4" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;椭球体 → 球体&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="9014" y="6349" width="97" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fDynNpyQAB81bh-Qlnlq-5" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;count \(|J|\)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1423,6 +1423,9 @@
             <mxPoint x="9783" y="6919" as="sourcePoint" />
             <mxPoint x="9625" y="6972" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fDynNpyQAB81bh-Qlnlq-25" value="← 什么叫 把椭球变为球? 并不是实际改变其shape啊?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9636" y="6354" width="302" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
