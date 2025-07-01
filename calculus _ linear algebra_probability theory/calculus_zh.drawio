@@ -591,7 +591,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6YN9OXydNIkHuUSU0x00" name="Triple_count">
-    <mxGraphModel dx="1530" dy="1578" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="14866" pageHeight="7866" math="1" shadow="0">
+    <mxGraphModel dx="1849" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="14866" pageHeight="14866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1175,23 +1175,107 @@
         <mxCell id="MmIqIcHJwkr6uV_rcIHD-41" value="∴ \(I = I_1 + I_2 = \frac{\pi}{12}(2-\sqrt{2}) + \frac{\pi}{12}(3\sqrt{2}-4) = \frac{\pi}{12}(2\sqrt{2}-2) = \frac{\pi}{6}(\sqrt{2}-1)\)" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="8243" y="5257" width="550" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-1" value="combine with Surface Integral&amp;amp;Gauss | 椭球&#39; 球坐标equation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#999999;" vertex="1" parent="1">
+        <mxCell id="RJtk-dzfay7bOKfKPxem-1" value="combine with Surface Integral&amp;amp;Gauss | 椭球&#39; 球坐标equation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="8886" y="5487" width="394" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-2" value="Gauss公式表达式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="9437" y="5556" width="113" height="26" as="geometry" />
+        <mxCell id="RJtk-dzfay7bOKfKPxem-2" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;&lt;b&gt;Gauss公式&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10121" y="5708" width="79" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-3" value="好的，我们来详细拆解一下这个证明过程。这个问题的核心在于理解**高斯公式（Gauss&#39;s Divergence Theorem）** 如何将一个曲面积分转化为一个三重积分。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;### 解题步骤详解&lt;br&gt;&lt;br&gt;现在，我们来一步步看题目中的积分是如何变换的。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;**第二步：计算 P, Q, R 的偏导数**&lt;br&gt;&lt;br&gt;根据高斯公式，我们需要计算散度 \(\frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z}\)。&lt;br&gt;&lt;br&gt;* 对 \(P\) 求 \(x\) 的偏导数：&lt;br&gt;    \[&lt;br&gt;    \frac{\partial P}{\partial x} = \frac{\partial}{\partial x} \left(x - \frac{1}{3}x^3\right) = 1 - x^2&lt;br&gt;    \]&lt;br&gt;&lt;br&gt;* 对 \(Q\) 求 \(y\) 的偏导数：&lt;br&gt;    \[&lt;br&gt;    \frac{\partial Q}{\partial y} = \frac{\partial}{\partial y} \left(-\frac{4}{3}y^3\right) = -4y^2&lt;br&gt;    \]&lt;br&gt;&lt;br&gt;* 对 \(R\) 求 \(z\) 的偏导数：&lt;br&gt;    \[&lt;br&gt;    \frac{\partial R}{\partial z} = \frac{\partial}{\partial z} \left(3y - \frac{1}{3}z^3\right) = -z^2&lt;br&gt;    \]&lt;br&gt;&lt;br&gt;**第三步：应用高斯公式**&lt;br&gt;&lt;br&gt;将计算出的偏导数代入高斯公式的右侧：&lt;br&gt;\[&lt;br&gt;\frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z} = (1 - x^2) + (-4y^2) + (-z^2) = 1 - x^2 - 4y^2 - z^2&lt;br&gt;\]&lt;br&gt;&lt;br&gt;现在，根据高斯公式，原始的曲面积分 \(I\) 就等于这个散度在曲面 \(\Sigma\) 所围成的空间区域 \(\Omega\) 上的三重积分：&lt;br&gt;&lt;br&gt;\[&lt;br&gt;I = \iiint_{\Omega} (1 - x^2 - 4y^2 - z^2) \, dV&lt;br&gt;\]&lt;br&gt;&lt;br&gt;这正是证明第一步中给出的积分形式。&lt;br&gt;&lt;br&gt;### 为什么这样就能证明第一问的结论？&lt;br&gt;&lt;br&gt;现在我们得到了 \(I = \iiint_{\Omega} (1 - x^2 - 4y^2 - z^2) \, dV\)。&lt;br&gt;&lt;br&gt;我们的目标是让积分 \(I\) 的值达到**最大**。要使一个积分值最大，我们自然希望被积函数的值为正，并且积分区域尽可能地包含所有被积函数为正的点。&lt;br&gt;&lt;br&gt;令被积函数 \(f(x, y, z) = 1 - x^2 - 4y^2 - z^2\)。&lt;br&gt;&lt;br&gt;* 当 \(f(x, y, z) &amp;gt; 0\) 时，对积分的贡献是正的。&lt;br&gt;* 当 \(f(x, y, z) &amp;lt; 0\) 时，对积分的贡献是负的，会使总积分值减小。&lt;br&gt;&lt;br&gt;因此，为了使积分 \(I\) 最大，我们应该选择的积分区域 \(\Omega\) 恰好是所有满足 \(f(x, y, z) \ge 0\) 的点的集合。也就是：&lt;br&gt;\[&lt;br&gt;\Omega = \{(x, y, z) | 1 - x^2 - 4y^2 - z^2 \ge 0\}&lt;br&gt;\]&lt;br&gt;这个不等式可以写成：&lt;br&gt;\[&lt;br&gt;x^2 + 4y^2 + z^2 \le 1&lt;br&gt;\]&lt;br&gt;这正是一个椭球体所定义的空间区域。&lt;br&gt;&lt;br&gt;而题目中的曲面 \(\Sigma\) 是空间区域 \(\Omega\) 的**边界**。因此，当 \(\Sigma\) 为椭球面 \(x^2 + 4y^2 + z^2 = 1\) 时，它所围成的区域 \(\Omega\) 恰好是能使积分 \(I\) 达到最大值的区域。&lt;br&gt;&lt;br&gt;**总结：**&lt;br&gt;1.  **应用高斯公式**：将复杂的曲面积分 \(I\) 转化为一个形式更简单的三重积分，其被积函数为 \(1 - x^2 - 4y^2 - z^2\)。&lt;br&gt;2.  **分析被积函数**：为了使三重积分的值最大，积分区域 \(\Omega\) 应该包含所有使得被积函数 \(1 - x^2 - 4y^2 - z^2 \ge 0\) 的点。&lt;br&gt;3.  **确定最优区域**：满足该条件的区域 \(\Omega\) 是由不等式 \(x^2 + 4y^2 + z^2 \le 1\) 定义的椭球体。&lt;br&gt;4.  **得出结论**：因此，当该区域的边界面 \(\Sigma\) 为椭球面 \(x^2 + 4y^2 + z^2 = 1\) 时，原积分 \(I\) 达到最大值。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10227.001679077148" y="5480.998404541016" width="550" height="1648" as="geometry" />
+        <mxCell id="RJtk-dzfay7bOKfKPxem-5" value="设 \(\Omega\) 是空间中的一个闭合区域，其边界 \(\Sigma\) 是一个分片光滑的闭合曲面。设函数 \(P(x, y, z)\), \(Q(x, y, z)\), \(R(x, y, z)\) 在 \(\Omega\) 上有一阶连续偏导数，则有： &lt;br&gt; &lt;br&gt;\[ &lt;br&gt;∯_{\Sigma} P \, dy dz + Q \, dz dx + R \, dx dy = \iiint_{\Omega} \left( \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z} \right) dV &lt;br&gt;\] &lt;br&gt; &lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10147" y="5749" width="550" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-5" value="### 高斯公式回顾&#xa;&#xa;高斯公式的内容是：&#xa;设 \(\Omega\) 是空间中的一个闭合区域，其边界 \(\Sigma\) 是一个分片光滑的闭合曲面。设函数 \(P(x, y, z)\), \(Q(x, y, z)\), \(R(x, y, z)\) 在 \(\Omega\) 上有一阶连续偏导数，则有：&#xa;&#xa;\[&#xa;∯_{\Sigma} P \, dy dz + Q \, dz dx + R \, dx dy = \iiint_{\Omega} \left( \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z} \right) dV&#xa;\]&#xa;&#xa;其中，\(dV = dx \, dy \, dz\) 是体积微元，曲面积分的方向取为外法线方向。&#xa;&#xa;这个公式的本质是，**通过闭合曲面 \(\Sigma\) 的通量（左边），等于场在曲面所围体积 \(\Omega\) 内的源的散度之和（右边）**。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="9349.002702026368" y="5588.995030517578" width="550" height="238" as="geometry" />
+        <mxCell id="RJtk-dzfay7bOKfKPxem-8" value="&lt;br&gt;\[&lt;br&gt;&lt;br&gt;I = ∯_{\Sigma} \left(x - \frac{1}{3}x^3\right) dydz - \frac{4}{3}y^3 dzdx + \left(3y - \frac{1}{3}z^3\right) dx dy&lt;br&gt;&lt;br&gt;\]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8912" y="5544" width="550" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-8" value="**第一步：识别 P, Q, R**&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;题目给出的曲面积分是：&lt;br&gt;&lt;br&gt;\[&lt;br&gt;&lt;br&gt;I = ∯_{\Sigma} \left(x - \frac{1}{3}x^3\right) dy \wedge dz - \frac{4}{3}y^3 dz \wedge dx + \left(3y - \frac{1}{3}z^3\right) dx \wedge dy&lt;br&gt;&lt;br&gt;\]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;将它与高斯公式的左侧进行比对：&lt;br&gt;&lt;br&gt;\[&lt;br&gt;∯_{\Sigma} P \, dy \wedge dz + Q \, dz \wedge dx + R \, dx \wedge dy&lt;br&gt;&lt;br&gt;\]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;我们可以清晰地识别出：&lt;br&gt;&lt;br&gt;* \(P(x, y, z) = x - \frac{1}{3}x^3\)&lt;br&gt;&lt;br&gt;* \(Q(x, y, z) = -\frac{4}{3}y^3\) （注意这里的负号）&lt;br&gt;&lt;br&gt;* \(R(x, y, z) = 3y - \frac{1}{3}z^3\)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="8935.003236694336" y="5936.998343505859" width="550" height="295" as="geometry" />
-        </mxCell>
-        <mxCell id="RJtk-dzfay7bOKfKPxem-9" value="椭球 球equation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="RJtk-dzfay7bOKfKPxem-9" value="椭球 球equation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="9313" y="5312" width="103" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-1" value="曲面积分的方向取 外法线方向" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10197" y="5877" width="550" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-2" value="本质是，**通过闭合曲面 \(\Sigma\) 的通量（左边），= 场在曲面所围体积 \(\Omega\) 内的源的散度之和（右边）**。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10196.995944824219" y="5915.002290039062" width="550" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-3" value="* \(P(x, y, z) = x - \frac{1}{3}x^3\)&lt;br&gt;&lt;br&gt;* \(Q(x, y, z) = -\frac{4}{3}y^3\)&amp;nbsp;&lt;br&gt;&lt;br&gt;* \(R(x, y, z) = 3y - \frac{1}{3}z^3\)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9023.99998779297" y="5881.003569335938" width="298" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-4" value="1.证明\(\Sigma\)为椭球面\(x^2+4y^2+z^2=1\)时，\(I\) 达到最大值；" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8937" y="5672" width="308" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-5" value="2.求\(I\)的最大值" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8947.003386230468" y="6278.001401367188" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9196" y="5698" as="sourcePoint" />
+            <mxPoint x="9235" y="5698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yJ6wRXDzb2Itt53N5Y3U-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9298" y="5662" as="sourcePoint" />
+            <mxPoint x="9467" y="5592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-8" value="Surface integral&#39; max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9286" y="5633" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9451" y="5613" as="sourcePoint" />
+            <mxPoint x="9393" y="5633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-10" value="use Gauss→\(\iiint_{\Omega}\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9397" y="5592" width="181" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9558" y="5640" as="sourcePoint" />
+            <mxPoint x="9538" y="5618" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-12" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Integrand: 值 +&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;amp;&amp;amp; 积分区域:&amp;nbsp; including all Integrand的值 +&amp;nbsp;&#39;点&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="9499" y="5667" width="290" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9591" y="5716.44" as="sourcePoint" />
+            <mxPoint x="9774" y="5716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.984;entryY=0.273;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9654" y="5761" as="sourcePoint" />
+            <mxPoint x="9644" y="5737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-15" value="\(\Omega\) is the set of points all meeting \(f(x, y, z) \ge 0\)&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9519" y="5775" width="385" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-16" value="\[&#xa;\Omega = \{(x, y, z) | 1 - x^2 - 4y^2 - z^2 \ge 0\}&#xa;\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9591.000347425672" y="5796.996416422526" width="277" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="yJ6wRXDzb2Itt53N5Y3U-17" value="to Maximize an integral value:" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="9491.00275627984" y="5637.996068657769" width="187" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-1" value="椭球面image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9835" y="5814" width="87" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-2" value="\(&lt;br&gt;&lt;br&gt;\frac{\partial P}{\partial x} = \frac{\partial}{\partial x} \left(x - \frac{1}{3}x^3\right) = 1 - x^2&lt;br&gt;&lt;br&gt;\)&lt;br&gt;&lt;br&gt;&lt;div&gt;\(&lt;br&gt;&lt;br&gt;\frac{\partial Q}{\partial y} = \frac{\partial}{\partial y} \left(-\frac{4}{3}y^3\right) = -4y^2&lt;br&gt;&lt;br&gt;\)&lt;br&gt;&lt;br&gt;\(&lt;br&gt;&lt;br&gt;\frac{\partial R}{\partial z} = \frac{\partial}{\partial z} \left(3y - \frac{1}{3}z^3\right) = -z^2&lt;br&gt;&lt;br&gt;\)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9053" y="6003" width="550" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-3" value="\(&lt;br&gt;\frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z} = (1 - x^2) + (-4y^2) + (-z^2) = 1 - x^2 - 4y^2 - z^2&lt;br&gt;\)&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9020" y="6113" width="550" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-4" value="\[&#xa;&#xa;&#xa;&#xa;I = \iiint_{\Omega} (1 - x^2 - 4y^2 - z^2) \, dV&#xa;&#xa;&#xa;&#xa;\]" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9075" y="6172" width="263" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-5" value="∴&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="9026" y="6192" width="33" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M3exCN0lH9EL-nDd28Tc-6" value="### 第二问：求 I 的最大值&#xa;&#xa;#### (1) 计算思路与策略&#xa;&#xa;根据第一问的结论，积分 \(I\) 的最大值 \(I_{max}\) 是在积分区域 \(\Omega\) 为椭球体 \(x^2 + 4y^2 + z^2 \le 1\) 时取得的。因此，我们需要计算的积分是：&#xa;\[&#xa;I_{max} = \iiint_{x^2 + 4y^2 + z^2 \le 1} (1 - x^2 - 4y^2 - z^2) \, dx \, dy \, dz&#xa;\]&#xa;直接在笛卡尔坐标系下计算这个三重积分会非常困难，因为积分区域是一个椭球体，其积分上下限会是复杂的含根式的表达式。&#xa;&#xa;**核心策略**：进行**坐标变换（换元法）**，将不规则的**椭球体**区域转化为规则的**球体**区域，从而简化积分计算。&#xa;&#xa;我们选择一个修正的球坐标变换，这个变换可以直接将表达式 \(x^2 + 4y^2 + z^2\) 化简为 \(r^2\)。&#xa;&#xa;#### (2) 坐标变换的设定&#xa;&#xa;令：&#xa;\[&#xa;\begin{cases}&#xa;x = r \sin\varphi \cos\theta \\&#xa;y = \frac{1}{2} r \sin\varphi \sin\theta \\&#xa;z = r \cos\varphi&#xa;\end{cases}&#xa;\]&#xa;这个变换的巧妙之处在于，当我们把它代入椭球体表达式时：&#xa;\[&#xa;\begin{aligned}&#xa;x^2 + 4y^2 + z^2 &amp;= (r \sin\varphi \cos\theta)^2 + 4\left(\frac{1}{2} r \sin\varphi \sin\theta\right)^2 + (r \cos\varphi)^2 \\&#xa;&amp;= r^2 \sin^2\varphi \cos^2\theta + 4\left(\frac{1}{4} r^2 \sin^2\varphi \sin^2\theta\right) + r^2 \cos^2\varphi \\&#xa;&amp;= r^2 \sin^2\varphi \cos^2\theta + r^2 \sin^2\varphi \sin^2\theta + r^2 \cos^2\varphi \\&#xa;&amp;= r^2 \sin^2\varphi (\cos^2\theta + \sin^2\theta) + r^2 \cos^2\varphi \\&#xa;&amp;= r^2 \sin^2\varphi + r^2 \cos^2\varphi \\&#xa;&amp;= r^2(\sin^2\varphi + \cos^2\varphi) \\&#xa;&amp;= r^2&#xa;\end{aligned}&#xa;\]&#xa;这样，复杂的被积函数 \((1 - x^2 - 4y^2 - z^2)\) 就直接变成了 \((1 - r^2)\)。&#xa;&#xa;#### (3) 雅可比行列式 |J| 的详细计算&#xa;&#xa;在坐标变换中，体积微元的关系是 \(dx \, dy \, dz = |J| \, dr \, d\theta \, d\varphi\)，其中 \(J\) 是雅可比行列式。&#xa;\[&#xa;J = \frac{\partial(x, y, z)}{\partial(r, \theta, \varphi)} =&#xa;\begin{vmatrix}&#xa;\frac{\partial x}{\partial r} &amp; \frac{\partial x}{\partial \theta} &amp; \frac{\partial x}{\partial \varphi} \\&#xa;\frac{\partial y}{\partial r} &amp; \frac{\partial y}{\partial \theta} &amp; \frac{\partial y}{\partial \varphi} \\&#xa;\frac{\partial z}{\partial r} &amp; \frac{\partial z}{\partial \theta} &amp; \frac{\partial z}{\partial \varphi}&#xa;\end{vmatrix}&#xa;\]&#xa;**第一步：计算所有偏导数**&#xa;* \(\frac{\partial x}{\partial r} = \sin\varphi \cos\theta\), \(\frac{\partial x}{\partial \theta} = -r \sin\varphi \sin\theta\), \(\frac{\partial x}{\partial \varphi} = r \cos\varphi \cos\theta\)&#xa;* \(\frac{\partial y}{\partial r} = \frac{1}{2}\sin\varphi \sin\theta\), \(\frac{\partial y}{\partial \theta} = \frac{1}{2}r \sin\varphi \cos\theta\), \(\frac{\partial y}{\partial \varphi} = \frac{1}{2}r \cos\varphi \sin\theta\)&#xa;* \(\frac{\partial z}{\partial r} = \cos\varphi\), \(\frac{\partial z}{\partial \theta} = 0\), \(\frac{\partial z}{\partial \varphi} = -r \sin\varphi\)&#xa;&#xa;**第二步：构建并展开行列式**&#xa;\[&#xa;J =&#xa;\begin{vmatrix}&#xa;\sin\varphi \cos\theta &amp; -r \sin\varphi \sin\theta &amp; r \cos\varphi \cos\theta \\&#xa;\frac{1}{2}\sin\varphi \sin\theta &amp; \frac{1}{2}r \sin\varphi \cos\theta &amp; \frac{1}{2}r \cos\varphi \sin\theta \\&#xa;\cos\varphi &amp; 0 &amp; -r \sin\varphi&#xa;\end{vmatrix}&#xa;\]&#xa;为了方便计算，我们可以把公共因子 \(\frac{1}{2}\) 从第二行提出来：&#xa;\[&#xa;J = \frac{1}{2}&#xa;\begin{vmatrix}&#xa;\sin\varphi \cos\theta &amp; -r \sin\varphi \sin\theta &amp; r \cos\varphi \cos\theta \\&#xa;\sin\varphi \sin\theta &amp; r \sin\varphi \cos\theta &amp; r \cos\varphi \sin\theta \\&#xa;\cos\varphi &amp; 0 &amp; -r \sin\varphi&#xa;\end{vmatrix}&#xa;\]&#xa;我们沿第三行展开（因为它有一个0，可以简化计算）：&#xa;\[&#xa;\begin{aligned}&#xa;J &amp;= \frac{1}{2} \left[ \cos\varphi \begin{vmatrix} -r \sin\varphi \sin\theta &amp; r \cos\varphi \cos\theta \\ r \sin\varphi \cos\theta &amp; r \cos\varphi \sin\theta \end{vmatrix} - 0 + (-r \sin\varphi) \begin{vmatrix} \sin\varphi \cos\theta &amp; -r \sin\varphi \sin\theta \\ \sin\varphi \sin\theta &amp; r \sin\varphi \cos\theta \end{vmatrix} \right] \\&#xa;&amp;= \frac{1}{2} \left[ \cos\varphi ((-r \sin\varphi \sin\theta)(r \cos\varphi \sin\theta) - (r \cos\varphi \cos\theta)(r \sin\varphi \cos\theta)) \right. \\&#xa;&amp; \qquad \left. - r \sin\varphi ((\sin\varphi \cos\theta)(r \sin\varphi \cos\theta) - (-r \sin\varphi \sin\theta)(\sin\varphi \sin\theta)) \right] \\&#xa;&amp;= \frac{1}{2} \left[ \cos\varphi (-r^2 \sin\varphi \cos\varphi \sin^2\theta - r^2 \sin\varphi \cos\varphi \cos^2\theta) - r \sin\varphi (r \sin^2\varphi \cos^2\theta + r \sin^2\varphi \sin^2\theta) \right] \\&#xa;&amp;= \frac{1}{2} \left[ \cos\varphi (-r^2 \sin\varphi \cos\varphi (\sin^2\theta + \cos^2\theta)) - r \sin\varphi (r \sin^2\varphi (\cos^2\theta + \sin^2\theta)) \right] \\&#xa;&amp;= \frac{1}{2} \left[ \cos\varphi (-r^2 \sin\varphi \cos\varphi) - r \sin\varphi (r \sin^2\varphi) \right] \\&#xa;&amp;= \frac{1}{2} \left[ -r^2 \sin\varphi \cos^2\varphi - r^2 \sin^2\varphi \sin\varphi \right] \\&#xa;&amp;= -\frac{1}{2} r^2 \sin\varphi (\cos^2\varphi + \sin^2\varphi) \\&#xa;&amp;= -\frac{1}{2} r^2 \sin\varphi&#xa;\end{aligned}&#xa;\]&#xa;由于体积微元需要的是雅可比行列式的绝对值，所以：&#xa;\[&#xa;|J| = \left|-\frac{1}{2} r^2 \sin\varphi\right| = \frac{1}{2} r^2 \sin\varphi&#xa;\]&#xa;(因为在标准球坐标系中 \(r \ge 0\) 且 \(0 \le \varphi \le \pi\)，所以 \(\sin\varphi \ge 0\))&#xa;&#xa;#### (4) 确定新坐标系下的定义域&#xa;&#xa;* **r 的范围**: 原来的区域是 \(x^2 + 4y^2 + z^2 \le 1\)，经过变换后变成了 \(r^2 \le 1\)。由于半径 \(r\) 不能为负，所以 \(0 \le r \le 1\)。&#xa;* **\(\theta\) 的范围**: 为了覆盖整个椭球体，我们需要绕 z 轴旋转完整的一圈，所以方位角 \(\theta\) 的范围是 \(0 \le \theta \le 2\pi\)。&#xa;* **\(\varphi\) 的范围**: 为了从 &quot;北极&quot; (z轴正向) 覆盖到 &quot;南极&quot; (z轴负向)，极角 \(\varphi\) 的范围是 \(0 \le \varphi \le \pi\)。&#xa;&#xa;#### (5) 计算最终的定积分&#xa;&#xa;现在，我们将所有部分组合起来，计算 \(I_{max}\)：&#xa;\[&#xa;\begin{aligned}&#xa;I_{max} &amp;= \iiint_{\Omega} (1 - x^2 - 4y^2 - z^2) \, dx \, dy \, dz \\&#xa;&amp;= \int_{0}^{\pi} \int_{0}^{2\pi} \int_{0}^{1} (1 - r^2) |J| \, dr \, d\theta \, d\varphi \\&#xa;&amp;= \int_{0}^{\pi} \int_{0}^{2\pi} \int_{0}^{1} (1 - r^2) \left(\frac{1}{2} r^2 \sin\varphi\right) \, dr \, d\theta \, d\varphi&#xa;\end{aligned}&#xa;\]&#xa;这是一个变量可分离的积分，我们可以将其拆分为三个独立积分的乘积：&#xa;\[&#xa;I_{max} = \frac{1}{2} \left( \int_{0}^{\pi} \sin\varphi \, d\varphi \right) \left( \int_{0}^{2\pi} d\theta \right) \left( \int_{0}^{1} (1-r^2)r^2 \, dr \right)&#xa;\]&#xa;**分别计算这三个积分：**&#xa;1.  **\(\varphi\) 的积分**:&#xa;    \[&#xa;    \int_{0}^{\pi} \sin\varphi \, d\varphi = [-\cos\varphi]_{0}^{\pi} = (-\cos\pi) - (-\cos0) = -(-1) - (-1) = 1 + 1 = 2&#xa;    \]&#xa;2.  **\(\theta\) 的积分**:&#xa;    \[&#xa;    \int_{0}^{2\pi} d\theta = [\theta]_{0}^{2\pi} = 2\pi - 0 = 2\pi&#xa;    \]&#xa;3.  **r 的积分 (求解原函数)**:&#xa;    \[&#xa;    \int_{0}^{1} (1-r^2)r^2 \, dr = \int_{0}^{1} (r^2 - r^4) \, dr&#xa;    \]&#xa;    其原函数为 \(\frac{r^3}{3} - \frac{r^5}{5}\)。代入上下限：&#xa;    \[&#xa;    \left[\frac{r^3}{3} - \frac{r^5}{5}\right]_{0}^{1} = \left(\frac{1^3}{3} - \frac{1^5}{5}\right) - (0) = \frac{1}{3} - \frac{1}{5} = \frac{5 - 3}{15} = \frac{2}{15}&#xa;    \]&#xa;&#xa;**最后，将三部分的结果相乘：**&#xa;\[&#xa;I_{max} = \frac{1}{2} \times (2) \times (2\pi) \times \left(\frac{2}{15}\right) = 1 \times 2\pi \times \frac{2}{15} = \frac{4\pi}{15}&#xa;\]&#xa;这就是最终的答案。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9558.998922729492" y="6173.998909912109" width="550" height="2339" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
