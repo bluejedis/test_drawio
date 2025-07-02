@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0" pages="2">
   <diagram name="第 1 页" id="AklFeyAA-y239aNZUu9-">
-    <mxGraphModel>
+    <mxGraphModel dx="1849" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="14866" pageHeight="14866" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-1" value="概念identify&amp;amp;match" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="865" y="1157" width="138" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-2" value="&lt;font style=&quot;color: rgb(153, 255, 51);&quot;&gt;r&lt;/font&gt;←→十" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="758" y="1127" width="58" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-3" value="float" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="991" y="1245" width="41" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-4" value="定点&lt;font style=&quot;color: rgb(153, 255, 51);&quot;&gt;数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="991" y="1084" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-5" value="..小数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="962" y="962" width="49" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-6" value="..整数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1038" y="962" width="49" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-7" value="分类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1031" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3PdKb1E0j52_HRt2QkO_-7" target="3PdKb1E0j52_HRt2QkO_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.495;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3PdKb1E0j52_HRt2QkO_-7" target="3PdKb1E0j52_HRt2QkO_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-10" value="运算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1093" y="1107" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-11" value="法则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1237" y="1133" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-12" value="组成 运算 部件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1237" y="1070" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#999999;strokeColor=#999999;" edge="1" parent="1" source="3PdKb1E0j52_HRt2QkO_-13" target="3PdKb1E0j52_HRt2QkO_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-13" value="&lt;span style=&quot;color: silver;&quot;&gt;带 &lt;span style=&quot;color: Gold;&quot;&gt;标志&lt;/span&gt;加法器&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365.9996313476563" y="1000.0019105747768" width="103" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-14" value="&lt;span style=&quot;color: greenyellow;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot;color: gold;&quot;&gt;L&lt;/span&gt;&lt;font style=&quot;color: rgb(153, 153, 153);&quot;&gt;U&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365.995035923549" y="1074.0014460100447" width="51" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-17" value="&lt;font style=&quot;color: rgb(153, 255, 51);&quot;&gt;移&lt;/font&gt;位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1177" width="42" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-18" value="±" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1248" y="1181" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-19" value="×÷" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="1183" width="32" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-20" value="O" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1676" y="918" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-21" value="S" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1676.5" y="953" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-22" value="Z" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1677" y="987" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3PdKb1E0j52_HRt2QkO_-23" value="C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1677" y="1020" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FnOLZ8XRQfBz3m0GI2gf-1" value="sign位 logic表达式(OSZC)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1487.9972604031032" y="999.999944797092" width="167" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kpvYDseAW5VRC1HCs3YR" name="sign位 logic表达式(OSZC)">
+    <mxGraphModel dx="928" dy="718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="14866" pageHeight="14866" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yv8nDUQ4uZ07V0kA_6DX-1" value="好的！我用具体的二进制例子来说明 **OF（溢出标志）** 和 **CF（进位标志）** 的计算过程，帮助理解它们的区别和实际意义。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;#### **示例2：无溢出的加法**&lt;br&gt;&lt;br&gt;计算：`00000001`（1） + `00000001`（1） = `00000010`（2）  &lt;br&gt;&lt;br&gt;- 进位分析：&lt;br&gt;&lt;br&gt;  - \(C_{n-1}=0\)（次高位无进位），\(C_n=0\)（符号位无进位）。  &lt;br&gt;&lt;br&gt;- **OF计算**：\(0 \oplus 0 = 0\)（无溢出）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;### **2. 进位标志（CF）的例子**&lt;br&gt;&lt;br&gt;**公式**：\(\mathrm{CF} = C_{\mathrm{out}} \oplus C_{\mathrm{in}}\)  &lt;br&gt;&lt;br&gt;**作用**：检测**无符号数**的运算是否产生进位（加法）或借位（减法）。  &lt;br&gt;&lt;br&gt;**关键**：  &lt;br&gt;&lt;br&gt;- **加法**：\(C_{\mathrm{in}}=0\)，所以 \(\mathrm{CF} = C_{\mathrm{out}}\)（直接取最高位进位）。  &lt;br&gt;&lt;br&gt;- **减法**：通过补码转换为加法，\(C_{\mathrm{in}}=1\)，需反转 \(C_{\mathrm{out}}\) 表示借位。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;#### **示例1：8位无符号数加法（产生进位）**&lt;br&gt;&lt;br&gt;计算：`11111111`（255） + `00000001`（1） = `00000000`（0，实际256）  &lt;br&gt;&lt;br&gt;- 二进制加法过程：&lt;br&gt;&lt;br&gt;  ```&lt;br&gt;&lt;br&gt;    11111111 (255)&lt;br&gt;&lt;br&gt;  + 00000001 (1)&lt;br&gt;&lt;br&gt;  ------------&lt;br&gt;&lt;br&gt;   100000000 (256, 但只保留低8位00000000)&lt;br&gt;&lt;br&gt;  ```&lt;br&gt;&lt;br&gt;- **进位分析**：&lt;br&gt;&lt;br&gt;  - 最高位产生进位，\(C_{\mathrm{out}}=1\)，\(C_{\mathrm{in}}=0\)（加法）。  &lt;br&gt;&lt;br&gt;- **CF计算**：\(1 \oplus 0 = 1\)（进位）。  &lt;br&gt;&lt;br&gt;  - 无符号数结果应为256，但8位只能表示0-255，因此进位表示结果无效。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;#### **示例2：8位无符号数减法（产生借位）**&lt;br&gt;&lt;br&gt;计算：`00000000`（0） - `00000001`（1） = `11111111`（255，实际-1）  &lt;br&gt;&lt;br&gt;- 减法通过补码实现：`0 - 1` → `0 + (-1)`，其中 `-1` 的补码为 `11111111`。  &lt;br&gt;&lt;br&gt;- 二进制加法过程：&lt;br&gt;&lt;br&gt;&lt;br&gt;    00000000 (0)&lt;br&gt;&lt;br&gt;  + 11111111 (-1的补码)&lt;br&gt;&lt;br&gt;  ------------&lt;br&gt;&lt;br&gt;    11111111 (255)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- **进位分析**：&lt;br&gt;&lt;br&gt;  - 最高位无进位（`0 + 1` 无进位），\(C_{\mathrm{out}}=0\)，但减法时 \(C_{\mathrm{in}}=1\)。  &lt;br&gt;&lt;br&gt;- **CF计算**：\(0 \oplus 1 = 1\)（借位）。  &lt;br&gt;&lt;br&gt;  - 无符号数不允许负数，借位表示结果无效（实际应为-1）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;### **对比总结**&lt;br&gt;&lt;br&gt;| 场景               | OF（有符号数）               | CF（无符号数）               |&lt;br&gt;&lt;br&gt;|--------------------|-----------------------------|-----------------------------|&lt;br&gt;&lt;br&gt;| **加法溢出/进位** | 检查符号位是否被进位破坏     | 检查最高位是否进位           |&lt;br&gt;&lt;br&gt;| **减法借位**      | 不直接相关                  | 检查是否需借位（补码转换后） |&lt;br&gt;&lt;br&gt;| **示例**          | 127 + 1 = -128（OF=1）      | 255 + 1 = 0（CF=1）         |&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;---&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;### **关键记忆点**&lt;br&gt;&lt;br&gt;1. **OF** 是给程序员看的（有符号数是否算错了）。  &lt;br&gt;&lt;br&gt;2. **CF** 是给CPU看的（无符号数是否超出范围）。  &lt;br&gt;&lt;br&gt;3. 加减法的进位/借位规则不同，但都通过 \(\oplus\) 统一处理。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;希望这些例子能帮你彻底理解！如果还有疑问，可以继续追问具体细节。&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2864.9989313616074" y="362" width="550" height="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8nDUQ4uZ07V0kA_6DX-3" value="#### **示例1：8位有符号数加法（正溢出）**&#xa;&#xa;计算：`01111111`（127） + `00000001`（1） = `10000000`（-128）&#xa;&#xa;- 二进制加法过程：&#xa;&#xa;&#xa;&#xa;&#xa;01111111 (127)&#xa;&#xa;+ 00000001 (1)&#xa;&#xa;------------&#xa;&#xa;10000000 (-128, 实际应为128，但溢出)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1914" y="1050.003941127232" width="393" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="yv8nDUQ4uZ07V0kA_6DX-4" value="- **进位分析**：&lt;br&gt;- **次高位**（\(C_{n-1}\)）：数值部分 `01111111 + 0000001` 产生进位，\(C_{n-1}=1\)。&lt;br&gt;&lt;br&gt;&lt;br&gt;- **符号位**（\(C_n\)）：`0 + 0` 无进位，\(C_n=0\)。&lt;br&gt;- **OF计算**：\(0 \oplus 1 = 1\)（溢出）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- 结果应为128，但8位有符号数范围是[-128,127]，因此溢出为负数（-128）。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1964.0081222098215" y="1311.0030817522324" width="480" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-1" value="对于两个二进制位 \(A\) 和 \(B\)，异或的结果为：  &lt;br&gt;&lt;br&gt;    \[&lt;br&gt;&lt;br&gt;    A \oplus B = &lt;br&gt;&lt;br&gt;    \begin{cases} &lt;br&gt;&lt;br&gt;    0 &amp;amp; \text{如果 } A = B \text{（两数相同）}, \\&lt;br&gt;&lt;br&gt;    1 &amp;amp; \text{如果 } A \neq B \text{（两数不同）}.&lt;br&gt;&lt;br&gt;    \end{cases}&lt;br&gt;&lt;br&gt;    \]&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;    #### 真值表：&lt;br&gt;&lt;br&gt;    | \(A\) | \(B\) | \(A \oplus B\) |&lt;br&gt;&lt;br&gt;    |-------|-------|----------------|&lt;br&gt;&lt;br&gt;    | 0     | 0     | 0              |&lt;br&gt;&lt;br&gt;    | 0     | 1     | 1              |&lt;br&gt;&lt;br&gt;    | 1     | 0     | 1              |&lt;br&gt;&lt;br&gt;    | 1     | 1     | 0              |&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="257" width="550" height="386" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-2" value="\(\oplus\) **异或（XOR，Exclusive OR）" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="129.9978778076172" y="204.00393127441407" width="269" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-3" value="&lt;br&gt;- **OR（或）**：只要有一个输入为1，结果就是1（包含性）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;- **XOR（异或）**：必须严格一个为0、一个为1，结果才是1（排他性）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\(1 \lor 1 = 1\)，但 \(1 \oplus 1 = 0\)。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="847" width="550" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-5" value="\(\mathrm{OF} = C_n \oplus C_{n-1}\)&lt;br&gt;- 最高位进位 \(C_n\) 和次高位进位 \(C_{n-1}\) **不同时**，\(\mathrm{OF}=1\)（表示有符号数溢出）。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;\(\mathrm{CF} = C_{\mathrm{out}} \oplus C_{\mathrm{in}}\)&lt;br&gt;- 对于加法（\(C_{\mathrm{in}}=0\)），直接等于最高位进位 \(C_{\mathrm{out}}\)。&lt;br&gt;- 对于减法（补码运算中 \(C_{\mathrm{in}}=1\)），需反转 \(C_{\mathrm{out}}\) 表示借位。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="668" width="550" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-6" value="for signed num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="554" width="97" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Larsk8cx2z01rOeCRQHz-7" value="for unsigned num" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="720" width="111" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
