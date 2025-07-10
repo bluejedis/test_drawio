@@ -503,7 +503,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="第 1 页 的副本" id="xVr05UkvIsGtOq0jbgZF">
-    <mxGraphModel dx="6050" dy="1026" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4724" pageHeight="4724" math="0" shadow="0">
+    <mxGraphModel dx="5254" dy="410" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4724" pageHeight="4724" math="0" shadow="0">
       <root>
         <mxCell id="QxaZ2X2nsKtyVqY2yBcj-0" />
         <mxCell id="QxaZ2X2nsKtyVqY2yBcj-1" parent="QxaZ2X2nsKtyVqY2yBcj-0" />
@@ -1079,15 +1079,18 @@
           <mxGeometry x="71.0002624511717" y="29.996809082031177" width="74" height="36" as="geometry" />
         </mxCell>
         <mxCell id="23F39-Tf7cPi40bszIrh-24" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="QxaZ2X2nsKtyVqY2yBcj-1">
-          <mxGeometry x="3019" y="1749" width="187" height="66" as="geometry">
+          <mxGeometry x="3019" y="1749" width="187" height="101" as="geometry">
             <mxRectangle x="3014" y="1665" width="50" height="44" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="23F39-Tf7cPi40bszIrh-25" value="← 第i趟 &lt;font face=&quot;Comic Sans MS&quot;&gt;choose&amp;amp;exchange&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontFamily=华文新魏;" vertex="1" parent="23F39-Tf7cPi40bszIrh-24">
-          <mxGeometry x="26" y="-1" width="161" height="28" as="geometry" />
+          <mxGeometry x="26" y="-1.4696969696969697" width="161" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="23F39-Tf7cPi40bszIrh-26" value="pivot&amp;nbsp;" style="text;whiteSpace=wrap;html=1;fontColor=#999999;fontFamily=Times New Roman;" vertex="1" parent="23F39-Tf7cPi40bszIrh-24">
-          <mxGeometry x="22.438945385742798" y="30.000073242038464" width="66.07333333333332" height="35.99992675796154" as="geometry" />
+        <mxCell id="23F39-Tf7cPi40bszIrh-26" value="构造(big)+adjust" style="text;whiteSpace=wrap;html=1;fontColor=#999999;fontFamily=Times New Roman;" vertex="1" parent="23F39-Tf7cPi40bszIrh-24">
+          <mxGeometry x="26" y="30" width="96.56" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="23F39-Tf7cPi40bszIrh-35" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;exchange&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;big&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;fontFamily=Comic Sans MS;" vertex="1" parent="23F39-Tf7cPi40bszIrh-24">
+          <mxGeometry x="48" y="36" width="110" height="65" as="geometry" />
         </mxCell>
         <mxCell id="23F39-Tf7cPi40bszIrh-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;rounded=0;strokeColor=#999999;" edge="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
