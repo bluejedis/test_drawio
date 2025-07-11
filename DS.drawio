@@ -619,7 +619,7 @@
           <mxGeometry x="2070" y="2175" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxaZ2X2nsKtyVqY2yBcj-39" value="sum&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=14;fontColor=#999999;" parent="QxaZ2X2nsKtyVqY2yBcj-1" vertex="1">
-          <mxGeometry x="2070" y="2255" width="70" height="30" as="geometry" />
+          <mxGeometry x="2070" y="2309" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxaZ2X2nsKtyVqY2yBcj-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="QxaZ2X2nsKtyVqY2yBcj-1" vertex="1">
           <mxGeometry x="2160" y="2015" width="20" height="170" as="geometry" />
@@ -1118,14 +1118,28 @@
         <mxCell id="23F39-Tf7cPi40bszIrh-30" value="count数组c" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" parent="23F39-Tf7cPi40bszIrh-34" vertex="1">
           <mxGeometry x="173.00339055793992" y="15" width="77" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zfTCAURK01-P3Jk8uPgZ-0" value="2, 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
-          <mxGeometry x="1935" y="1981.5" width="38" height="26" as="geometry" />
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-8" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="QxaZ2X2nsKtyVqY2yBcj-1">
+          <mxGeometry x="1893" y="1981.5" width="155" height="258.5" as="geometry">
+            <mxRectangle x="1893" y="1981.5" width="50" height="44" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zfTCAURK01-P3Jk8uPgZ-2" value="$$KEY_{FO_n} \ge KEY_{FO_{n-1}}$$" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
-          <mxGeometry x="1890" y="2077" width="155" height="36" as="geometry" />
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-0" value="2, 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry x="42" width="38" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zfTCAURK01-P3Jk8uPgZ-4" value="叶子 Loser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
-          <mxGeometry x="1914" y="2027.5" width="75" height="26" as="geometry" />
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-2" value="$$KEY_{FO_n} \ge KEY_{FO_{n-1}}$$" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry y="93.5" width="155" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-4" value="叶子 Loser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry x="21" y="55.5" width="75" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-5" value="&lt;font style=&quot;color: rgb(153, 153, 153);&quot; face=&quot;Comic Sans MS&quot;&gt;wpl min&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry x="15" y="158.5" width="58" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-6" value="$$(n_0 - 1) \% (k - 1) == 0$$" style="text;whiteSpace=wrap;html=1;fontSize=7;fontColor=#999999;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry x="40" y="188.5" width="89.5" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="zfTCAURK01-P3Jk8uPgZ-7" value="$$(k - 1) - (n_0 - 1) \% (k - 1)$$" style="text;whiteSpace=wrap;html=1;fontSize=7;fontColor=#999999;" vertex="1" parent="zfTCAURK01-P3Jk8uPgZ-8">
+          <mxGeometry x="49" y="222.5" width="101" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
