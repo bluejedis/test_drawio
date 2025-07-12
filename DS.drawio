@@ -1156,6 +1156,15 @@
         <mxCell id="MCVDrA6-6fSQKb4V6Kmi-4" value="$$n= \sum_{i=0}^{m}i n + 1$$" style="text;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
           <mxGeometry x="-969" y="2149.5" width="100.99" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="MCVDrA6-6fSQKb4V6Kmi-5" value="$$i$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
+          <mxGeometry x="-857" y="2251" width="47" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVDrA6-6fSQKb4V6Kmi-6" value="$$m^i$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
+          <mxGeometry x="-805" y="2251" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MCVDrA6-6fSQKb4V6Kmi-7" value="\(h\) 、\(m\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#999999;" vertex="1" parent="QxaZ2X2nsKtyVqY2yBcj-1">
+          <mxGeometry x="-872" y="2306" width="79" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
