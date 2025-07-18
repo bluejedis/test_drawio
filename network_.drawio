@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.4" pages="2">
   <diagram name="第 1 页" id="O5OOP18YAtUZcq2zbPO-">
     <mxGraphModel dx="2773" dy="1190" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4724" pageHeight="4724" math="0" shadow="0">
       <root>
@@ -1077,6 +1077,142 @@
         </mxCell>
         <mxCell id="a2Tck0fQxZjnZfc6YIo9-22" value="&lt;div style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(128, 128, 128);&quot;&gt;选择重传(SR) ~&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;container=0;" parent="a2Tck0fQxZjnZfc6YIo9-47" vertex="1">
           <mxGeometry y="88.4188454017752" width="145" height="35.876288659793815" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jKgJ6i4WiRkfw6yRG0_Y" name="传输层">
+    <mxGraphModel dx="3328" dy="1430" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="14866" pageHeight="14866" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-1" value="&lt;font style=&quot;color: rgb(230, 230, 230);&quot;&gt;(一) 传输层提供的&lt;/font&gt;服务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1393" y="884.4973091947122" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-2" value="&lt;font style=&quot;color: rgb(204, 204, 204);&quot;&gt;(二)&lt;/font&gt; UDP | TCP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1826" y="977.9973091947122" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-3" value="TCP 数据报格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1076.9973091947122" width="120" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-4" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;entryX=0.5;entryY=0;fontSize=14;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="MzFvzxN1Ba3714XHXScZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1918" y="1015.9973091947122" as="sourcePoint" />
+            <mxPoint x="1781" y="1022.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1823" y="1015.9973091947122" />
+              <mxPoint x="1781" y="1015.9973091947122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-5" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;exitX=0.74;exitY=0.998;entryX=0.377;entryY=0.101;fontSize=14;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1918" y="1007.997309194712" as="sourcePoint" />
+            <mxPoint x="1918.4210000000003" y="1079.986309194712" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1918.1999999999998" y="1018.0573091947122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-6" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;entryX=0.5;entryY=0;fontSize=14;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1919" y="1015.9973091947122" as="sourcePoint" />
+            <mxPoint x="2125.5" y="1076.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1919" y="1015.9973091947122" />
+              <mxPoint x="2064" y="1015.9973091947122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-7" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1668.0046696589543" y="758.0000000000005" as="sourcePoint" />
+            <mxPoint x="1608" y="902.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1668.0046696589543" y="838.0000000000005" />
+              <mxPoint x="1668.0046696589543" y="903.0000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-8" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;strokeWidth=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1668.0046696589543" y="748" as="sourcePoint" />
+            <mxPoint x="1708" y="995.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1668.0046696589543" y="838.0000000000005" />
+              <mxPoint x="1668.0046696589543" y="996.0000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-9" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;exitX=0.433;exitY=0.161;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="MzFvzxN1Ba3714XHXScZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1461.0046696589543" y="877.0000000000005" as="sourcePoint" />
+            <mxPoint x="1420.0046696589543" y="834.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1461.0046696589543" y="851.0000000000005" />
+              <mxPoint x="1420.0046696589543" y="851.0000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-10" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;exitX=0.432;exitY=0.117;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="MzFvzxN1Ba3714XHXScZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1461.0046696589543" y="876.0000000000005" as="sourcePoint" />
+            <mxPoint x="1540.0046696589543" y="834.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1461.0046696589543" y="851.0000000000005" />
+              <mxPoint x="1540.0046696589543" y="851.0000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-11" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1383" y="802.9973091947122" width="180" height="20" as="geometry">
+            <mxRectangle x="3176" y="1237" width="50" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-12" value="功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-11">
+          <mxGeometry x="17" width="51.42857142857142" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-13" value="寻址与端口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-11">
+          <mxGeometry x="114.00428571428571" width="82.28571428571428" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-14" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;exitX=0.433;exitY=0.161;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1858" y="983.9973091947122" as="sourcePoint" />
+            <mxPoint x="1786" y="922.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1857.0046696589543" y="946.0000000000005" />
+              <mxPoint x="1816.0046696589543" y="946.0000000000005" />
+              <mxPoint x="1786" y="945.9973091947122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-15" value="" style="endArrow=none;html=1;rounded=1;strokeColor=#E6E6E6;exitX=0.432;exitY=0.117;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1858" y="982.9973091947122" as="sourcePoint" />
+            <mxPoint x="1936" y="923.9973091947122" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1857.0046696589543" y="946.0000000000005" />
+              <mxPoint x="1936.0046696589543" y="946.0000000000005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-16" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1707" y="882.9973091947122" width="236" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-17" value="UDP 数据报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-16">
+          <mxGeometry x="38" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-18" value="~&amp;nbsp;&lt;font style=&quot;color: rgb(255, 217, 102);&quot;&gt;校&lt;/font&gt;&lt;font style=&quot;color: rgb(151, 208, 119);&quot;&gt;验&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-16">
+          <mxGeometry x="186" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-19" value="" style="group;collapsible=1;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1835" y="1074.9973091947122" width="404" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-20" value="&lt;font style=&quot;color: rgb(230, 230, 230);&quot;&gt;TCP &lt;/font&gt;连接管理 | 可靠传输" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-19">
+          <mxGeometry y="2" width="173" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MzFvzxN1Ba3714XHXScZ-21" value="&lt;font style=&quot;color: rgb(230, 230, 230);&quot;&gt;TCP&lt;/font&gt;流量控制 | TCP拥塞控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#808080;fontSize=14;" vertex="1" parent="MzFvzxN1Ba3714XHXScZ-19">
+          <mxGeometry x="207" width="197" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
